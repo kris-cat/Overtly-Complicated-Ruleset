@@ -53,8 +53,13 @@
 		"techs":
         [
 			{
-				"name": "Calendar",
+				"name": "Writing",
 				"row": 1,
+				"prerequisites": ["Pottery"],
+			},
+			{
+				"name": "Calendar",
+				"row": 2,
 				"prerequisites": ["Pottery"],
 			},
 			{
@@ -74,8 +79,33 @@
 			},
 			{
 				"name": "Trading",
-				"row": 7,
+				"row": 8,
 				"prerequisites": ["Animal Husbandry"],
+			}
+        ]
+	},
+	{
+        "columnNumber": 3,
+		"era": "Ancient era",
+		"techCost": 50,
+		"buildingCost": 80,
+		"wonderCost": 185,
+		"techs":
+        [
+			{
+				"name": "Astrology",
+				"row": 3,
+				"prerequisites": ["Calendar","Sailing"],
+			},
+			{
+				"name": "Military Organization",
+				"row": 5,
+				"prerequisites": ["Construction","Bronze Working"],
+			},
+			{
+				"name": "Wheel",
+				"row": 8,
+				"prerequisites": ["Construction","Trading"],
 			}
         ]
 	}
