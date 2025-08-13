@@ -14,6 +14,7 @@
 			}
 		]
     },
+	//Ancient Era
     {
         "columnNumber": 1,
 		"era": "Ancient era",
@@ -126,6 +127,46 @@
 				"name": "Military Organization",
 				"row": 8,
 				"prerequisites": ["Construction","Bronze Working"],
+			}
+        ]
+	},
+	{
+        "columnNumber": 4,
+		"era": "Classical era",
+		"techCost": 60,
+		"buildingCost": 80,
+		"wonderCost": 185,
+		"techs":
+        [
+			{
+				"name": "Philosophy",
+				"row": 2,
+				"prerequisites": ["Mysticism","Writing"],
+			},
+			{
+				"name": "Artisanship",
+				"row": 4,
+				"prerequisites": ["Writing","Trade"],
+			},
+			{
+				"name": "Mathematics",
+				"row": 5,
+				"prerequisites": ["Writing","Trade"],
+			},
+			{
+				"name": "Horseback Riding",
+				"row": 6,
+				"prerequisites": ["Trade","Military Organisation"],
+			},
+			{
+				"name": "Fortifications",
+				"row": 7,
+				"prerequisites": ["Masonry","Military Organisation"],
+			},
+			{
+				"name": "Iron Working",
+				"row": 9,
+				"prerequisites": ["Military Organisation"],
 			}
         ]
 	}
