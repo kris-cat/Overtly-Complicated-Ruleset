@@ -9,7 +9,7 @@
         [
             {
                 "name": "Agriculture",
-				"row": 6,
+				"row": 5,
 				"uniques": ["Starting tech"]
 			}
 		]
@@ -29,17 +29,17 @@
 			},
 			{
 				"name": "Carpentry",
-				"row": 5,
+				"row": 4,
 				"prerequisites": ["Agriculture"],
 			},
 			{
 				"name": "Mining",
-				"row": 7,
+				"row": 6,
 				"prerequisites": ["Agriculture"],
 			},
 			{
 				"name": "Animal Husbandry",
-				"row": 9,
+				"row": 8,
 				"prerequisites": ["Agriculture"],
 			}
         ]
@@ -59,22 +59,22 @@
 			},
 			{
 				"name": "Sailing",
-				"row": 2,
+				"row": 3,
 				"prerequisites": ["Pottery","Carpentry"],
 			},
 			{
 				"name": "Construction",
-				"row": 3,
+				"row": 5,
 				"prerequisites": ["Carpentry","Mining"],
 			},
 			{
 				"name": "Bronze Working",
-				"row": 4,
+				"row": 6,
 				"prerequisites": ["Mining"],
 			},
 			{
 				"name": "Trading",
-				"row": 5,
+				"row": 7,
 				"prerequisites": ["Animal Husbandry"],
 			}
         ]
