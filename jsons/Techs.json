@@ -17,7 +17,7 @@
     {
         "columnNumber": 1,
 		"era": "Ancient era",
-		"techCost": 35,
+		"techCost": 30,
 		"buildingCost": 60,
 		"wonderCost": 185,
 		"techs":
@@ -26,24 +26,56 @@
 				"name": "Pottery",
 				"row": 2,
 				"prerequisites": ["Agriculture"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
 			},
 			{
-				"name": "Animal Husbandry",
+				"name": "Carpentry",
 				"row": 5,
 				"prerequisites": ["Agriculture"],
 			},
 			{
-				"name": "Archery",
+				"name": "Mining",
 				"row": 7,
 				"prerequisites": ["Agriculture"],
-                "uniques": ["[-50]% weight to this choice for AI decisions"],
 			},
 			{
-				"name": "Mining",
+				"name": "Animal Husbandry",
 				"row": 9,
 				"prerequisites": ["Agriculture"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
+			}
+        ]
+	},
+	{
+        "columnNumber": 2,
+		"era": "Ancient era",
+		"techCost": 40,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs":
+        [
+			{
+				"name": "Calendar",
+				"row": 1,
+				"prerequisites": ["Pottery"],
+			},
+			{
+				"name": "Sailing",
+				"row": 2,
+				"prerequisites": ["Pottery","Carpentry"],
+			},
+			{
+				"name": "Construction",
+				"row": 3,
+				"prerequisites": ["Carpentry","Mining"],
+			},
+			{
+				"name": "Bronze Working",
+				"row": 4,
+				"prerequisites": ["Mining"],
+			},
+			{
+				"name": "Trading",
+				"row": 5,
+				"prerequisites": ["Animal Husbandry"],
 			}
         ]
 	}
