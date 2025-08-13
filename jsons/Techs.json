@@ -23,15 +23,15 @@
 		"techs":
         [
 			{
-				"name": "Pottery",
+				"name": "Animal Husbandry",
 				"row": 2,
 				"prerequisites": ["Agriculture"],
-			},
+			}
 			{
-				"name": "Animal Husbandry",
+				"name": "Pottery",
 				"row": 4,
 				"prerequisites": ["Agriculture"],
-			}
+			},
 			{
 				"name": "Carpentry",
 				"row": 6,
@@ -53,33 +53,23 @@
 		"techs":
         [
 			{
-				"name": "Writing",
-				"row": 1,
-				"prerequisites": ["Pottery"],
-			},
-			{
 				"name": "Irrigation",
-				"row": 2,
-				"prerequisites": ["Pottery","Animal Husbandry"],
+				"row": 3,
+				"prerequisites": ["Animal Husbandry","Pottery"],
 			},
 			{
 				"name": "Sailing",
-				"row": 3,
+				"row": 5,
 				"prerequisites": ["Pottery","Carpentry"],
 			},
 			{
-				"name": "Wheel",
-				"row": 8,
-				"prerequisites": ["Animal Husbandry","Carpentry"],
-			}
-			{
 				"name": "Construction",
-				"row": 5,
+				"row": 7,
 				"prerequisites": ["Carpentry","Mining"],
 			},
 			{
 				"name": "Bronze Working",
-				"row": 6,
+				"row": 8,
 				"prerequisites": ["Mining"],
 			},
         ]
