@@ -30,7 +30,7 @@
 			},
 			{
 				"name": "Pottery",
-				"row": 3,
+				"row": 2,
 				"prerequisites": ["Agriculture"],
 			},
 			{
@@ -71,7 +71,7 @@
 			{
 				"name": "Irrigation",
 				"row": 4,
-				"prerequisites": ["Pottery","Animal Husbandry"],
+				"prerequisites": ["Pottery"],
 			},
 			{
 				"name": "Wheel",
@@ -85,7 +85,7 @@
 			},
 			{
 				"name": "Bronze Working",
-				"row": 9,
+				"row": 10,
 				"prerequisites": ["Mining"],
 			},
         ]
@@ -114,9 +114,14 @@
 				"prerequisites": ["Astrology","Irrigation"],
 			},
 			{
-				"name": "Trade",
-				"row": 6,
+				"name": "Artisanship",
+				"row": 4,
 				"prerequisites": ["Irrigation","Wheel"],
+			},
+			{
+				"name": "Trade",
+				"row": 5,
+				"prerequisites": ["Wheel"],
 			},
 			{
 				"name": "Masonry",
@@ -125,7 +130,7 @@
 			},
 			{
 				"name": "Military Organisation",
-				"row": 8,
+				"row": 9,
 				"prerequisites": ["Construction","Bronze Working"],
 			}
         ]
@@ -139,19 +144,19 @@
 		"techs":
         [
 			{
-				"name": "Philosophy",
+				"name": "Theology",
 				"row": 2,
 				"prerequisites": ["Mysticism","Writing"],
 			},
 			{
-				"name": "Artisanship",
-				"row": 4,
-				"prerequisites": ["Writing","Trade"],
+				"name": "Philosophy",
+				"row": 3,
+				"prerequisites": ["Mysticism","Writing"],
 			},
 			{
 				"name": "Mathematics",
-				"row": 5,
-				"prerequisites": ["Writing","Trade"],
+				"row": 4,
+				"prerequisites": ["Writing","Artisanship","Trade"],
 			},
 			{
 				"name": "Horseback Riding",
@@ -160,12 +165,12 @@
 			},
 			{
 				"name": "Fortifications",
-				"row": 7,
+				"row": 8,
 				"prerequisites": ["Masonry","Military Organisation"],
 			},
 			{
 				"name": "Iron Working",
-				"row": 9,
+				"row": 10,
 				"prerequisites": ["Military Organisation"],
 			}
         ]
