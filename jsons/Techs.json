@@ -65,7 +65,7 @@
 			},
 			{
 				"name": "Astrology",
-				"row": 3,
+				"row": 2,
 				"prerequisites": ["Pottery"],
 			},
 			{
