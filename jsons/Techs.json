@@ -23,35 +23,30 @@
 		"techs":
         [
 			{
-				"name": "Sailing",
-				"row": 2,
-				"prerequisites": ["Agriculture"],
-			},
-			{
-				"name": "Calendar",
-				"row": 3,
+				"name": "Fishing",
+				"row": 1,
 				"prerequisites": ["Agriculture"],
 			},
 			{
 				"name": "Pottery",
-				"row": 4,
+				"row": 3,
 				"prerequisites": ["Agriculture"],
 			},
 			{
 				"name": "Animal Husbandry",
-				"row": 6,
+				"row": 5,
 				"prerequisites": ["Agriculture"],
-			}
+			},
 			{
 				"name": "Carpentry",
 				"row": 7,
 				"prerequisites": ["Agriculture"],
-			}
+			},
 			{
 				"name": "Mining",
-				"row": 8,
+				"row": 9,
 				"prerequisites": ["Agriculture"],
-			},
+			}
         ]
 	},
 	{
@@ -63,50 +58,75 @@
 		"techs":
         [
 			{
-				"name": "Writing",
-				"row": 3,
-				"prerequisites": ["Calendar","Pottery"],
+				"name": "Sailing",
+				"row": 1,
+				"prerequisites": ["Fishing"],
+			},
+			{
+				"name": "Astrology",
+				"row": 2,
+				"prerequisites": ["Pottery"],
 			},
 			{
 				"name": "Irrigation",
-				"row": 5,
+				"row": 4,
 				"prerequisites": ["Pottery","Animal Husbandry"],
 			},
 			{
+				"name": "Wheel",
+				"row": 6,
+				"prerequisites": ["Animal Husbandry","Carpentry"],
+			},
+			{
 				"name": "Construction",
-				"row": 7,
+				"row": 8,
 				"prerequisites": ["Carpentry","Mining"],
 			},
 			{
 				"name": "Bronze Working",
-				"row": 8,
+				"row": 9,
 				"prerequisites": ["Mining"],
 			},
         ]
+	},
+	{
+        "columnNumber": 3,
+		"era": "Ancient era",
+		"techCost": 40,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs":
+        [
+			{
+				"name": "Celestial Navigation",
+				"row": 1,
+				"prerequisites": ["Sailing","Astrology"],
+			},
+			{
+				"name": "Mysticism",
+				"row": 2,
+				"prerequisites": ["Astrology"],
+			},
+			{
+				"name": "Writing",
+				"row": 3,
+				"prerequisites": ["Astrology","Irrigation"],
+			},
+			{
+				"name": "Trade",
+				"row": 6,
+				"prerequisites": ["Irrigation","Wheel"],
+			},
+			{
+				"name": "Masonry",
+				"row": 7,
+				"prerequisites": ["Wheel","Construction"],
+			},
+			{
+				"name": "Military Organization",
+				"row": 8,
+				"prerequisites": ["Construction","Bronze Working"],
+			}
+        ]
 	}
-	//{
-   //     "columnNumber": 3,
-	//	"era": "Ancient era",
-	//	"techCost": 50,
-	//	"buildingCost": 80,
-	//	"wonderCost": 185,
-	//	"techs":
-   //     [
-	//		{
-	//			"name": "Astrology",
-	//			"row": 3,
-	//			"prerequisites": ["Calendar","Sailing"],
-	//		},
-	//		{
-	//			"name": "Military Organization",
-	//			"row": 5,
-	//			"prerequisites": ["Construction","Bronze Working"],
-	//		},
-	//		{
-	//			"name": "Wheel",
-	//			"row": 8,
-	//			"prerequisites": ["Construction","Trading"],
-	//		}
-   //     ]
-	//}
 ]
