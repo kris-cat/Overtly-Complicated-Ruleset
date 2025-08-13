@@ -1,0 +1,40 @@
+[
+  // Land unit types
+  {
+    "name": "Civilian",
+    "movementType": "Land"
+  },
+  {
+    "name": "Scout",
+    "movementType": "Land"
+  },
+  {
+    "name": "Melee",
+    "movementType": "Land"
+  },
+  {
+    "name": "Ranged",
+    "movementType": "Land"
+  },
+  {
+    "name": "Mounted Melee",
+    "movementType": "Land"
+  },
+  {
+    "name": "Mounted Ranged",
+    "movementType": "Land"
+  },
+  {
+    "name": "Siege",
+    "movementType": "Land"
+  },
+  // Naval unit types
+  {
+    "name": "Water Melee",
+    "movementType": "Water"
+  },
+  {
+    "name": "Water Ranged",
+    "movementType": "Water"
+  }
+]
