@@ -30,7 +30,7 @@
 			},
 			{
 				"name": "Pottery",
-				"row": 2,
+				"row": 3,
 				"prerequisites": ["Agriculture"],
 			},
 			{
@@ -65,7 +65,7 @@
 			},
 			{
 				"name": "Astrology",
-				"row": 2,
+				"row": 3,
 				"prerequisites": ["Pottery"],
 			},
 			{
@@ -99,24 +99,9 @@
 		"techs":
         [
 			{
-				"name": "Celestial Navigation",
-				"row": 1,
-				"prerequisites": ["Sailing","Astrology"],
-			},
-			{
-				"name": "Mysticism",
-				"row": 2,
-				"prerequisites": ["Astrology"],
-			},
-			{
 				"name": "Writing",
 				"row": 3,
 				"prerequisites": ["Astrology","Irrigation"],
-			},
-			{
-				"name": "Artisanship",
-				"row": 4,
-				"prerequisites": ["Irrigation","Wheel"],
 			},
 			{
 				"name": "Trade",
@@ -132,46 +117,6 @@
 				"name": "Military Organisation",
 				"row": 9,
 				"prerequisites": ["Construction","Bronze Working"],
-			}
-        ]
-	},
-	{
-        "columnNumber": 4,
-		"era": "Classical era",
-		"techCost": 60,
-		"buildingCost": 80,
-		"wonderCost": 185,
-		"techs":
-        [
-			{
-				"name": "Theology",
-				"row": 2,
-				"prerequisites": ["Mysticism","Writing"],
-			},
-			{
-				"name": "Philosophy",
-				"row": 3,
-				"prerequisites": ["Mysticism","Writing"],
-			},
-			{
-				"name": "Mathematics",
-				"row": 4,
-				"prerequisites": ["Writing","Artisanship","Trade"],
-			},
-			{
-				"name": "Horseback Riding",
-				"row": 6,
-				"prerequisites": ["Trade","Military Organisation"],
-			},
-			{
-				"name": "Fortifications",
-				"row": 8,
-				"prerequisites": ["Masonry","Military Organisation"],
-			},
-			{
-				"name": "Iron Working",
-				"row": 10,
-				"prerequisites": ["Military Organisation"],
 			}
         ]
 	}
