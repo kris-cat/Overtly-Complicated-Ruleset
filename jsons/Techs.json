@@ -124,7 +124,7 @@
 				"prerequisites": ["Wheel","Construction"],
 			},
 			{
-				"name": "Military Organization",
+				"name": "Military Organisation",
 				"row": 8,
 				"prerequisites": ["Construction","Bronze Working"],
 			}
