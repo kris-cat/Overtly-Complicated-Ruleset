@@ -11,8 +11,8 @@
         "embarkDefense": 3,
         "startPercent": 0,
         "citySound": "cityAncient",
-        "iconRGB": [255, 87, 35]
-    }
+        "iconRGB": [107, 90, 85]
+    },
     {
         "name": "Ancient era",
         "researchAgreementCost": 150,
