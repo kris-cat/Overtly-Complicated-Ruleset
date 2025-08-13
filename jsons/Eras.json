@@ -1,5 +1,19 @@
 [
     {
+        "name": "Neolithic era",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 0,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Hunter-Gatherer",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 3,
+        "startPercent": 0,
+        "citySound": "cityAncient",
+        "iconRGB": [100, 90, 85]
+    },
+    {
         "name": "Ancient era",
         "researchAgreementCost": 150,
         "startingSettlerCount": 1,
