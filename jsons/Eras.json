@@ -11,7 +11,7 @@
         "embarkDefense": 3,
         "startPercent": 0,
         "citySound": "cityAncient",
-        "iconRGB": [107, 90, 85]
+        "iconRGB": [145, 123, 116]
     },
     {
         "name": "Ancient era",
