@@ -1,5 +1,6 @@
 [
-  {
+	// Ancient Era
+	{
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
@@ -15,7 +16,7 @@
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
 	},
-  {
+	{
 		"name": "Warrior",
 		"unitType": "Melee",
 		"movement": 2,
@@ -23,7 +24,7 @@
 		"cost": 40,
 		"attackSound": "nonmetalhit",
 	},
-  {
+	{
 		"name": "Archer",
 		"unitType": "Ranged",
 		"movement": 2,
