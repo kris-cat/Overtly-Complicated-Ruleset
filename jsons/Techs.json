@@ -106,7 +106,7 @@
 			{
 				"name": "Trade",
 				"row": 5,
-				"prerequisites": ["Wheel"],
+				"prerequisites": ["Irrigation","Wheel"],
 			},
 			{
 				"name": "Masonry",
