@@ -42,7 +42,7 @@
 	// Ancient Era Ranged Units
 	{
 		"name": "Archer",
-		"unitType": "Ranged",
+		"unitType": "Archery",
 		"upgradesTo": "Composite Bowman",
 		"movement": 2,
 		"strength": 3,
@@ -62,10 +62,23 @@
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
+	{
+		"name": "Legion",
+		"unitType": "Melee",
+		"uniqueTo": "Rome",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 18,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"promotions": ["Cover I","Cover II"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	}
 	// Classical Era Ranged Units
 	{
 		"name": "Composite Bowman",
-		"unitType": "Ranged",
+		"unitType": "Archery",
 		"movement": 2,
 		"strength": 7,
 		"rangedStrength": 11,
