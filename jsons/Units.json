@@ -134,11 +134,11 @@
 		"uniqueTo": "Egypt",
 		"replaces": "Swordsman",
 		"movement": 2,
-		"strength": 10,
+		"strength": 11,
 		"cost": 50,
 		"requiredTech": "Bronze Working",
 		"uniques": [
-			"[25]% Strength <in [Open terrain] tiles>"
+			"[40]% Strength <in [Open terrain] tiles>"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
