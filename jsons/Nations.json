@@ -26,10 +26,10 @@
 		"outerColor": [9, 112, 84],
 		"innerColor": [255,255,255],
 
-		"uniqueName": "Dynastic Cycle",
+		"uniqueName": "Mandate of Heaven",
 		"uniques": [
 			"[15]% growth [in all cities] <when above [10] [Happiness]>",
-			"[15]% Strength <for [All] units> <when above [10] [Happiness]>",
+			",
 		],
     
 		"cities": [
