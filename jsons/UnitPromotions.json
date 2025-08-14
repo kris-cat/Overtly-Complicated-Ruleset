@@ -9,5 +9,13 @@
         "outerColor": [253,236,234],
         "row": 0,
         "column": 0
-    }
+    },
+	// Unique Promotions
+	{
+		"name": "Roman Engineers",
+		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"]
+		"unitTypes": [
+			"Melee"
+        ],
+	},
 ]
