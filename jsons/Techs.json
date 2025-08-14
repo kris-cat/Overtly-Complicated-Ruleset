@@ -135,12 +135,12 @@
 			},
 			{
 				"name": "Mysticism",
-				"row": 3,
+				"row": 2,
 				"prerequisites": ["Astrology","Writing"],
 			},
 			{
 				"name": "Mathematics",
-				"row": 4,
+				"row": 3,
 				"prerequisites": ["Writing","Trade"],
 			},
 			{
@@ -154,9 +154,44 @@
 				"prerequisites": ["Masonry","Military Organisation"],
 			},
 			{
-				"name": "Ironwork",
+				"name": "Iron Working",
 				"row": 10,
 				"prerequisites": ["Bronze Working"],
+			}
+        ]
+	},
+	{
+        "columnNumber": 5,
+		"era": "Classical era",
+		"techCost": 40,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs":
+        [
+			{
+				"name": "Theology",
+				"row": 2,
+				"prerequisites": ["Mysticism"],
+			},
+			{
+				"name": "Philosophy",
+				"row": 3,
+				"prerequisites": ["Mysticism","Philosophy"],
+			},
+			{
+				"name": "Currency",
+				"row": 4,
+				"prerequisites": ["Mathematics"],
+			},
+			{
+				"name": "Engineering",
+				"row": 8,
+				"prerequisites": ["Forticiations"],
+			},
+			{
+				"name": "Metalcasting",
+				"row": 10,
+				"prerequisites": ["Fortifications","Iron Working"],
 			}
         ]
 	}
