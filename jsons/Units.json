@@ -62,6 +62,7 @@
 		"rangedStrength": 8,
 		"cost": 56,
 		"requiredTech": "Wheel",
+		"requiredResource": "Horses",
 		"obsoleteTech": "Horseback Riding",
 		"uniques": [
 			"Can move after attacking",
@@ -101,6 +102,7 @@
 		"strength": 12,
 		"cost": 75,
 		"requiredTech": "Iron Working",
+		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -113,6 +115,7 @@
 		"strength": 16,
 		"cost": 75,
 		"requiredTech": "Iron Working",
+		"requiredResource": "Iron",
 		"promotions": ["Cover I","Cover II"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -136,6 +139,7 @@
 		"strength": 12,
 		"cost": 75,
 		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
@@ -153,6 +157,7 @@
 		"rangedStrength": 9,
 		"cost": 75,
 		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
