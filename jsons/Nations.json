@@ -87,7 +87,7 @@
 		"leaderName": "Ramesses II",
 		"adjective": ["Egyptian"],
 		"startBias": ["Avoid [Jungle]","Avoid [Forest]"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Domination",
 		"personality": "Ramesses II",
 
         "startIntroPart1": "O great Ramesses, Pharaoh of Egypt, bright as the Sun and mighty as the Nile! Lord of all living things, you lead the greatest of all civilizations, which has gifted the world with writing, advanced mathematics, sculpture, and architecture. Egyptian monuments and culture will continue to amaze the world for thousands of years.",
@@ -105,7 +105,6 @@
 
 		"outerColor": [255, 252, 3],
 		"innerColor": [83, 0, 208],
-		"favoredReligion": "Islam",
 		"uniqueName": "Monument Builders",
 		"uniques": ["[+20]% Production when constructing [All] wonders [in all cities]"],
 		"cities": [
