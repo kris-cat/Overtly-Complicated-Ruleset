@@ -149,7 +149,7 @@
 				"prerequisites": ["Trade","Military Organisation"],
 			},
 			{
-				"name": "Fortification",
+				"name": "Fortifications",
 				"row": 8,
 				"prerequisites": ["Masonry","Military Organisation"],
 			},
@@ -176,7 +176,7 @@
 			{
 				"name": "Philosophy",
 				"row": 3,
-				"prerequisites": ["Mysticism","Philosophy"],
+				"prerequisites": ["Mysticism","Mathematics"],
 			},
 			{
 				"name": "Currency",
@@ -186,7 +186,7 @@
 			{
 				"name": "Engineering",
 				"row": 8,
-				"prerequisites": ["Forticiations"],
+				"prerequisites": ["Fortifications"],
 			},
 			{
 				"name": "Metalcasting",
