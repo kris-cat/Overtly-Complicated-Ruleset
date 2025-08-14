@@ -61,7 +61,7 @@
 		"strength": 2,
 		"rangedStrength": 8,
 		"cost": 56,
-		"requiredTech": "The Wheel",
+		"requiredTech": "Wheel",
 		"obsoleteTech": "Horseback Riding",
 		"uniques": [
 			"Can move after attacking",
