@@ -104,7 +104,6 @@
 		"uniques": [
 			"Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
 			"Gain control over [Enemy Land] tiles in a [1]-tile radius <upon entering a [Enemy Land] tile> <within [1] tiles of a [your]> <hidden from users>"
-		]
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
