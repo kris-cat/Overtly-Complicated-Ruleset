@@ -24,7 +24,8 @@
 		"uniqueName": "Dynastic Cycle",
 		"uniques": [
 			"[15]% growth [in all cities] <when above [10] [Happiness]>",
-			"[15]% Strength <for [All] units> <when above [10] [Happiness]>"
+			"[15]% Strength <for [All] units> <when above [10] [Happiness]>",
+			"[Land] units gain the [Roman Engineers] promotion <upon discovering [Wheel] technology>"
 		],
     
 		"cities": [
