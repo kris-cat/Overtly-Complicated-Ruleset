@@ -28,8 +28,10 @@
 
 		"uniqueName": "Mandate of Heaven",
 		"uniques": [
-			"[15]% growth [in all cities] <when above [10] [Happiness]>",
-			",
+			"Comment [15% growth, ⍾ Science and ♪ Culture in all cities during a Golden Age]",
+			"[15]% growth [in all cities] <during a Golden Age> <hidden from users>",
+			"[15]% [Science] [in all cities] <during a Golden Age> <hidden from users>",
+			"[15]% [Culture] [in all cities] <during a Golden Age> <hidden from users>"
 		],
     
 		"cities": [
@@ -85,7 +87,12 @@
 		"name": "Egypt",
 		"leaderName": "Ramesses II",
 		"adjective": ["Egyptian"],
-		"startBias": ["Avoid [Jungle]","Avoid [Forest]"],
+		"startBias": [
+			"[Desert]",
+			"[River]",
+			"Avoid [Jungle]",
+			"Avoid [Forest]"
+		],
 		"preferredVictoryType": "Domination",
 		"personality": "Ramesses II",
 
