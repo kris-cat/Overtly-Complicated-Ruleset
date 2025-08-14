@@ -30,7 +30,6 @@
 		"uniques": [
 			"[15]% growth [in all cities] <when above [10] [Happiness]>",
 			"[15]% Strength <for [All] units> <when above [10] [Happiness]>",
-			"[Land] units gain the [Roman Engineers] promotion <upon discovering [Wheel] technology>"
 		],
     
 		"cities": [
@@ -69,7 +68,7 @@
 		"uniques": [
 			"[25]% Production when constructing [Buildings] buildings [in capital]",
 			"[10]% Production towards any buildings that already exist in the Capital",
-			"[Melee] units gain the [Roman Engineers] promotion",
+			"[Sword] units gain the [Roman Engineers] promotion",
 		],
 	  
 		"cities": [
