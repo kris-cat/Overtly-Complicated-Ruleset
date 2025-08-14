@@ -64,7 +64,7 @@
 	  "uniques": [
 		  "[25]% Production when constructing [Buildings] buildings [in capital]",
 		  "[10]% Production towards any buildings that already exist in the Capital",
-		  "[Melee] units gain the [Roman Engineers] promotion <upon discovering [Wheel] technology>",
+		  "[Melee] units gain the [Roman Engineers] promotion",
 	  ],
 	  
 	  "cities": [
