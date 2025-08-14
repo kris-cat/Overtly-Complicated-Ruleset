@@ -3,7 +3,7 @@
         "name": "Heal Instantly",
 		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": [
-            "Scout","Melee","Archery","Mounted","Mounted Ranged","Siege","Water Melee","Water Ranged"
+            "Scout","Sword","Archery","Mounted","Mounted Ranged","Siege","Water Melee","Water Ranged"
         ],
         "innerColor": [195,53,43],
         "outerColor": [253,236,234],
@@ -13,7 +13,7 @@
 	{
 		"name": "Cover I",
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>", "[-90]% weight to this choice for AI decisions"],
-		"unitTypes": ["Melee","Archery","Siege"],
+		"unitTypes": ["Sword","Archery","Siege"],
         "column": 24,
         "row": 1
 	},
@@ -21,7 +21,7 @@
 		"name": "Cover II",
 		"prerequisites": ["Cover I"],
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Melee","Archery","Siege"],
+		"unitTypes": ["Sword","Archery","Siege"],
         "column": 24,
         "row": 2
 	},
