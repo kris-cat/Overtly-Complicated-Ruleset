@@ -23,7 +23,7 @@
 		"upgradesTo": "Swordsman",
 		"movement": 2,
 		"strength": 7,
-		"cost": 35,]
+		"cost": 35,
 		"attackSound": "nonmetalhit",
 	},
 	{
