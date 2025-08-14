@@ -24,6 +24,9 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 35,
+		"uniques": [
+			"Gain control over [Enemy Land] tiles in a [0]-tile radius <upon entering a [Enemy Land] tile> <within [1] tiles of a [your]> <hidden from users>"
+		]
 		"attackSound": "nonmetalhit",
 	},
 	{
@@ -35,7 +38,8 @@
 		"requiredTech": "Bronze Working",
 		"uniques": [
 			"[+50]% Strength <vs [Mounted] units>",
-			"[+50]% Strength <vs [Mounted Ranged] units>"
+			"[+50]% Strength <vs [Mounted Ranged] units>",
+						"Gain control over [Enemy Land] tiles in a [0]-tile radius <upon entering a [Enemy Land] tile> <within [1] tiles of a [your]> <hidden from users>"
 		],
 		"attackSound": "metalhit"
 	},
@@ -60,6 +64,9 @@
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"hurryCostModifier": 20,
+		"uniques": [
+			"Gain control over [Enemy Land] tiles in a [0]-tile radius <upon entering a [Enemy Land] tile> <within [1] tiles of a [your]> <hidden from users>"
+		]
 		"attackSound": "metalhit"
 	},
 	{
