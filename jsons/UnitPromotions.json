@@ -13,7 +13,10 @@
 	// Unique Promotions
 	{
 		"name": "Roman Engineers",
-		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"]
+		"uniques": [
+			"Can build [Road] improvements on tiles",
+			"Can build [Fort] improvements on tiles <upon discovering [Fortifications] technology>"
+		]
 		"unitTypes": [
 			"Melee"
         ],
