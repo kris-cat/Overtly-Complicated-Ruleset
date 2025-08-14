@@ -77,6 +77,7 @@
 		"name": "War Chariot",
 		"unitType": "Mounted Ranged",
 		"uniqueTo": "Egypt",
+		"replaces": "Chariot Archer",
 		"upgradesTo": "Skirmisher",
 		"range": 1,
 		"movement": 5,
