@@ -61,7 +61,7 @@
 			{
 				"name": "Sailing",
 				"row": 1,
-				"prerequisites": ["Fishing"],
+				"prerequisites": ["Fishing","Pottery"],
 			},
 			{
 				"name": "Astrology",
@@ -117,6 +117,46 @@
 				"name": "Military Organisation",
 				"row": 9,
 				"prerequisites": ["Construction","Bronze Working"],
+			}
+        ]
+	},
+	{
+        "columnNumber": 4,
+		"era": "Classical Era",
+		"techCost": 40,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs":
+        [
+			{
+				"name": "Celestial Navigation",
+				"row": 1,
+				"prerequisites": ["Sailing","Astrology"],
+			},
+			{
+				"name": "Mysticism",
+				"row": 3,
+				"prerequisites": ["Astrology","Writing"],
+			},
+			{
+				"name": "Mathematics",
+				"row": 4,
+				"prerequisites": ["Writing","Trade"],
+			},
+			{
+				"name": "Horseback Riding",
+				"row": 6,
+				"prerequisites": ["Trade","Military Organisation"],
+			},
+			{
+				"name": "Fortification",
+				"row": ,8
+				"prerequisites": ["Masonry","Military Organisation"],
+			},
+			{
+				"name": "Ironwork",
+				"row": 10,
+				"prerequisites": ["Bronze Working"],
 			}
         ]
 	}
