@@ -169,9 +169,9 @@
 		"techs":
         [
 			{
-				"name": "Theology",
+				"name": "Drama and Poetry",
 				"row": 2,
-				"prerequisites": ["Mysticism"],
+				"prerequisites": ["Mysticism","Mathematics"],
 			},
 			{
 				"name": "Philosophy",
@@ -192,6 +192,36 @@
 				"name": "Metalcasting",
 				"row": 10,
 				"prerequisites": ["Fortifications","Iron Working"],
+			}
+        ]
+	},
+	{
+        "columnNumber": 6,
+		"era": "Classical era",
+		"techCost": 40,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs":
+        [
+			{
+				"name": "Shipbuilding",
+				"row": 1,
+				"prerequisites": ["Celestial Navigation"],
+			},
+			{
+				"name": "Theology",
+				"row": 3,
+				"prerequisites": ["Drama and Poetry","Philosophy"],
+			},
+			{
+				"name": "Artisanship",
+				"row": 5,
+				"prerequisites": ["Currency","Engineering"],
+			},
+			{
+				"name": "Urban Architecture",
+				"row": 8,
+				"prerequisites": ["Engineering","Metal Casting"],
 			}
         ]
 	}
