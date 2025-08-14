@@ -116,5 +116,16 @@
 			"Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"
 		]
     },
+	// Barbarians
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+        "innerColor": [185,12,12],
+		"uniques": [
+			"Can only heal by pillaging",
+			"Excluded from map editor",
+			"[Water] units gain the [Unable to pillage tiles] promotion"
+		]
+	}
 ]
 
