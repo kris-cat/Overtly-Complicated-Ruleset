@@ -46,7 +46,7 @@
 		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn"],
 		"shortcutKey": "R",
         "civilopediaText": [
-            {"text":"Requires Engineering to bridge rivers", "link":"Technology/Engineering"}
+            {"text":"Requires Construction to bridge rivers", "link":"Technology/Construction"}
         ]
 	},
 ]
