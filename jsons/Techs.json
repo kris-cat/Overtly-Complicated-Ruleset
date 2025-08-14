@@ -150,7 +150,7 @@
 			},
 			{
 				"name": "Fortification",
-				"row": ,8
+				"row": 8,
 				"prerequisites": ["Masonry","Military Organisation"],
 			},
 			{
