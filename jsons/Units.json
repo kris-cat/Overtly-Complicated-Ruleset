@@ -19,7 +19,7 @@
 	// Ancient Era Melee Units
 	{
 		"name": "Warrior",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"upgradesTo": "Swordsman",
 		"movement": 2,
 		"strength": 7,
@@ -28,7 +28,7 @@
 	},
 	{
 		"name": "Spearman",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 10,
 		"cost": 56,
@@ -96,7 +96,7 @@
 	// Classical Era Melee Units
 	{
 		"name": "Swordsman",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 12,
 		"cost": 75,
@@ -106,7 +106,7 @@
 	},
 	{
 		"name": "Legion",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"uniqueTo": "Rome",
 		"replaces": "Swordsman",
 		"movement": 2,
