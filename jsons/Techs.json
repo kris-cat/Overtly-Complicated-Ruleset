@@ -189,7 +189,7 @@
 				"prerequisites": ["Fortifications"],
 			},
 			{
-				"name": "Metalcasting",
+				"name": "Metal Casting",
 				"row": 10,
 				"prerequisites": ["Fortifications","Iron Working"],
 			}
