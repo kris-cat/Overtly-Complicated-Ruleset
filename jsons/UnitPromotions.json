@@ -13,7 +13,7 @@
 	{
 		"name": "Cover I",
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>", "[-90]% weight to this choice for AI decisions"],
-		"unitTypes": ["Sword","Archery","Siege"],
+		"unitTypes": ["Melee","Archery","Siege"],
         "column": 24,
         "row": 1
 	},
@@ -21,7 +21,7 @@
 		"name": "Cover II",
 		"prerequisites": ["Cover I"],
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Sword","Archery","Siege"],
+		"unitTypes": ["Melee","Archery","Siege"],
         "column": 24,
         "row": 2
 	},
