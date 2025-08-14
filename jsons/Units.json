@@ -25,7 +25,7 @@
 		"strength": 5,
 		"cost": 35,
 		"uniques": [
-			"Gain control over [Enemy Land] tiles in a [0]-tile radius <upon entering a [Enemy Land] tile> <within [1] tiles of a [your]> <hidden from users>"
+			"Gain control over [Enemy Land] tiles in a [1]-tile radius <upon entering a [Enemy Land] tile> <within [1] tiles of a [your]> <hidden from users>"
 		]
 		"attackSound": "nonmetalhit",
 	},
@@ -39,7 +39,7 @@
 		"uniques": [
 			"[+50]% Strength <vs [Mounted] units>",
 			"[+50]% Strength <vs [Mounted Ranged] units>",
-						"Gain control over [Enemy Land] tiles in a [0]-tile radius <upon entering a [Enemy Land] tile> <within [1] tiles of a [your]> <hidden from users>"
+						"Gain control over [Enemy Land] tiles in a [1]-tile radius <upon entering a [Enemy Land] tile> <within [1] tiles of a [your]> <hidden from users>"
 		],
 		"attackSound": "metalhit"
 	},
@@ -65,7 +65,7 @@
 		"requiredTech": "Iron Working",
 		"hurryCostModifier": 20,
 		"uniques": [
-			"Gain control over [Enemy Land] tiles in a [0]-tile radius <upon entering a [Enemy Land] tile> <within [1] tiles of a [your]> <hidden from users>"
+			"Gain control over [Enemy Land] tiles in a [1]-tile radius <upon entering a [Enemy Land] tile> <within [1] tiles of a [your]> <hidden from users>"
 		]
 		"attackSound": "metalhit"
 	},
@@ -102,7 +102,9 @@
 		"cost": 75,
 		"requiredTech": "Horseback Riding",
 		"uniques": [
-			"Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"
+			"Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
+			"Gain control over [Enemy Land] tiles in a [1]-tile radius <upon entering a [Enemy Land] tile> <within [1] tiles of a [your]> <hidden from users>"
+		]
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
