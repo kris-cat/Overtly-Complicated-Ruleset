@@ -122,7 +122,7 @@
 	},
 	{
         "columnNumber": 4,
-		"era": "Classical Era",
+		"era": "Classical era",
 		"techCost": 40,
 		"buildingCost": 60,
 		"wonderCost": 185,
