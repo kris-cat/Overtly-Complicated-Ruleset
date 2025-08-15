@@ -90,6 +90,15 @@
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "."
 	},
+	 // Purely for turnsToBuild and civilopediaText. Unbuildable so it doesn't show in ImprovementPicker
+    {
+        "name": "Repair",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "turnsToBuild": 2,
+        "shortcutKey": "E",
+        "uniques": ["Unbuildable", "Excluded from map editor"],
+        "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
+    },
 	// Basic Improvements
 	{
 		"name": "Farm",
