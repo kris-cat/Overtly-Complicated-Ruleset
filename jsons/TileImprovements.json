@@ -17,12 +17,12 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Ensures a minimum tile yield of [+2 Food, +1 Production, +10 Happiness]",
-			"Provides [6] [Housing] <in this city>",
+			"Provides [4] [Housing] <in this city>",
             "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"
 		],
         "civilopediaText": [
 			{"text":"Marks the center of a city"},
-			{"text":"Provides 12 Housing"},
+			{"text":"Provides 4 Housing"},
 			{"text":"Appearance changes with the technological era of the owning civilization"}
 		]
 	},
