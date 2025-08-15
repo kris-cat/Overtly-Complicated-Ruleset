@@ -176,7 +176,7 @@
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"requiredResource": "Iron",
-		"promotions": ["Cover I","Cover II"],
+		"promotions": ["Cover I"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	}
