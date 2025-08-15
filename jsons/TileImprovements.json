@@ -18,8 +18,8 @@
 		"uniques": [
 			"Ensures a minimum tile yield of [+2 Food, +1 Production, +10 Happiness]",
 			"Provides [4] [Housing] <in this city>",
-			"Provides [2] [Housing] <in tiles without [Fresh Water]> <in tiles adjacent to [Coastal] tiles> <in this city>",
-			"Provides [6] [Housing] <in [Fresh Water] tiles> <in this city>",
+			"Provides [2] [Housing] <in this city> <in tiles without [Fresh Water]> <in tiles adjacent to [Coastal] tiles>",
+			"Provides [6] [Housing] <in this city> <in [Fresh Water] tiles>",
             "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"
 		],
         "civilopediaText": [
