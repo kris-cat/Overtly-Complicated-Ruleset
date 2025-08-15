@@ -16,7 +16,7 @@
 		"name": "City center",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-			"Ensures a minimum tile yield of [+2 Food, +1 Production, +10 Happiness]",
+			"Ensures a minimum tile yield of [+2 Food, +1 Production]",
 			"Provides [4] [Housing] <in this city>",
             "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"
 		],
