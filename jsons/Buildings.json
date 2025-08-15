@@ -138,7 +138,7 @@
 	},
 	{
 		"name": "Nilometer",
-		"replaces": "Watermill",
+		"replaces": "Water Mill",
 		"uniqueTo": "Egypt",
 		"maintenance": 1,
 		"food": 2,
