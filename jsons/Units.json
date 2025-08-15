@@ -191,6 +191,19 @@
 		"requiredTech": "Mathematics",
 		"attackSound": "arrow"
 	},
+	{
+		"name": "Chu-Ko-Nu",
+		"unitType": "Archery",
+		"replaces": "Composite Bowman",
+		"uniqueTo": "China",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 14,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"promotions": ["Chu-ko-nu Ability"],
+		"attackSound": "arrow"
+	},
 	// Classical Era Mounted Units
 	{
 		"name": "Horseman",
