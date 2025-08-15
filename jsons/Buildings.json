@@ -102,7 +102,7 @@
 			"[+1 Food] from [Bison] tiles [in this city]",
 			"[+1 Food] from [Bananas] tiles [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]",
-			"Provides [2] [Housing] <in this city>"
+			"Provides [4] [Housing] <in this city>"
 		]
 	},
 	{
@@ -114,10 +114,14 @@
 		"uniques": []
 	},
 	{
-		"name": "Circus",
-		"requiredNearbyImprovedResources": ["Horses"],
-		"happiness": 2,
+		"name": "Stable",
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
 		"hurryCostModifier": 25,
+		"uniques": [
+			"[+15]% Production when constructing [Mounted] units [in this city]",
+			"[+1 Production] from [Pasture] tiles [in this city]"
+		]
 		"requiredTech": "Animal Husbandry"
 	},
 	//Ancient Era - Second Column
@@ -127,7 +131,9 @@
 		"food": 2,
 		"production": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["Must be on [River]"],
+		"uniques": [
+			"Must be on [River]",
+		],
 		"requiredTech": "Wheel"
 	},
 	{
@@ -161,16 +167,89 @@
 		"requiredTech": "Writing"
 	}
 	{
+		"name": "Circus",
+		"requiredNearbyImprovedResources": ["Horses"],
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Trade"
+	},
+	{
 		"name": "Town Square",
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Gold] per [3] population [in this city]"],
+		"uniques": [
+			"[+2 Gold] per [3] population [in this city]",
+			"Provides [2] [Housing] <in this city>"
+		],
 		"requiredTech": "Trade"
 	},
 	{
 		"name": "Barracks",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
+		"uniques": [
+			"New [Military] units start with [15] XP [in this city]",
+			"Provides [1] [Housing] <in this city>",
+			"Destroyed when the city is captured"
+		],
 		"requiredTech": "Military Organisation"
-	}
+	},
+	{
+		"name": "Arena",
+		"maintenance": 1,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry"
+	},
+	{
+		"name": "Colosseum",
+		"replaces": "Arena",
+		"uniqueTo": "Rome",
+		"maintenance": 1,
+		"happiness": 3,
+		"uniques": ["[+1 Culture] per [3] population [in this city]"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry"
+	},
+	//Classical Era - First Column
+	{
+		"name": "Courthouse",
+		"maintenance": 4,
+		"hurryCostModifier": 50,
+		"uniques": [
+			"Removes extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>"
+		],
+		"requiredTech": "Mathematics"
+	},
+	//Classical Era - Second Column
+	{
+		"name": "Mint",
+		"maintenance": 0,
+		"requiredNearbyImprovedResources": ["Gold Ore", "Silver"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]"],
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Cistern",
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[25]% Food is carried over after population increases [in this city]",
+			"Provides [4] [Housing] <in this city>"
+		],
+		"requiredTech": "Engineering"
+	},
+	{
+		"name": "Aqueduct",
+		"replaces": "Cistern",
+		"uniqueTo": "Rome",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[40]% Food is carried over after population increases [in this city]",
+			"Provides [5] [Housing] <in this city>"
+		],
+		"requiredTech": "Engineering"
+	},
 ]
