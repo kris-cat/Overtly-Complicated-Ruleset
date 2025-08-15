@@ -57,17 +57,6 @@
 		"replacementTextForUniques": "Calculates Housing. 1 Population consumes 2 Housing. -50% Growth in this city when you have less than 4 Housing. Nullifies Growth when it is below 2."
 	},
 	{
-		"name": "Housing Non-Fresh Water Buff",
-		"cost": 0,
-		"hurryCostModifier": 0,
-		"maintenance": 0,
-		"uniques": [
-			"Unsellable","Automatically built in all cities where it is buildable","Never destroyed when the city is captured",
-			"Must not be next to [Fresh water]",
-			"Provides [2] [Housing] <in this city>"
-		]
-	},
-	{
 		"name": "Housing Fresh Water Buff",
 		"cost": 0,
 		"hurryCostModifier": 0,
@@ -76,6 +65,18 @@
 			"Unsellable","Automatically built in all cities where it is buildable","Never destroyed when the city is captured",
 			"Must be next to [Fresh water]",
 			"Provides [6] [Housing] <in this city>"
+		]
+	},
+	{
+		"name": "Housing Coastal Water Buff",
+		"cost": 0,
+		"hurryCostModifier": 0,
+		"maintenance": 0,
+		"uniques": [
+			"Unsellable","Automatically built in all cities where it is buildable","Never destroyed when the city is captured",
+			"Must be next to [Coastal]",
+			"Unbuildable <if [Housing Fresh Water Buff] is constructed> <in this city>",
+			"Provides [2] [Housing] <in this city>"
 		]
 	},
 	// Ancient Era
