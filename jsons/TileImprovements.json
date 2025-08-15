@@ -17,6 +17,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Ensures a minimum tile yield of [+2 Food, +1 Production, +10 Happiness]",
+			"Provides [4] [Housing] <in [in capital] cities>",
 			"Provides [4] [Housing] <in this city> <in tiles without [Fresh Water]> <in tiles not adjacent to [Coastal] tiles>",
 			"Provides [2] [Housing] <in this city> <in tiles without [Fresh Water]> <in tiles adjacent to [Coastal] tiles>",
 			"Provides [6] [Housing] <in this city> <in [Fresh Water] tiles>",
