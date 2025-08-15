@@ -137,6 +137,20 @@
 		"requiredTech": "Wheel"
 	},
 	{
+		"name": "Nilometer",
+		"replaces": "Watermill",
+		"uniqueTo": "Egypt",
+		"maintenance": 1,
+		"food": 2,
+		"production": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Must be on [River]",
+			"[+1 Gold] from [River] tiles [in this city]"
+		],
+		"requiredTech": "Wheel"
+	},
+	{
 		"name": "Stone Works",
 		"happiness": 1,
 		"production": 1,
