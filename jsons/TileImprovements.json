@@ -109,7 +109,8 @@
 		"uniques": [
 			"Can also be built on tiles adjacent to fresh water",
 			"Provides [1] [Housing] <in this city>",
-            "Pillaging this improvement yields approximately [+18 Gold]"
+            "Pillaging this improvement yields approximately [+18 Gold]",
+			"Cannot be built on [Water] tiles"
 		],
 		"shortcutKey": "F"
 	},
@@ -152,6 +153,7 @@
 	{
 		"name": "Camp",
 		"turnsToBuild": 7,
+		"gold": 1,
 		"techRequired": "Animal Husbandry",
 		"uniques": [
 			"Does not need removal of [Forest]",
@@ -166,6 +168,7 @@
 	{
 		"name": "Pasture",
 		"turnsToBuild": 8,
+		"production": 1,
 		"techRequired": "Animal Husbandry",
 		"uniques": [
 			"Provides [1] [Housing] <in this city>",
@@ -189,6 +192,7 @@
 	{
 		"name": "Quarry",
 		"turnsToBuild": 8,
+		"production": 1,
 		"techRequired": "Mining",
 		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "Q"
