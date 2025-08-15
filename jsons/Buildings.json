@@ -74,7 +74,7 @@
 		"maintenance": 0,
 		"uniques": [
 			"Unsellable","Automatically built in all cities where it is buildable","Never destroyed when the city is captured",
-			"Must be next to Fresh water]",
+			"Must be next to [Fresh water]",
 			"Provides [6] [Housing] <in this city>"
 		]
 	},
