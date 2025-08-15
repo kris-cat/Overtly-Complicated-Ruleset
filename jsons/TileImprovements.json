@@ -99,6 +99,7 @@
 		"techRequired": "Agriculture",
 		"uniques": [
 			"Can also be built on tiles adjacent to fresh water",
+			"Provides [1] [Housing] <in this city>",
             "Pillaging this improvement yields approximately [+18 Gold]"
 		],
 		"shortcutKey": "F"
@@ -132,6 +133,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Trade",
 		"uniques": [
+			"Provides [2] [Housing] <in this city>",
 			"[+1 Gold] <after discovering [Currency]>",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
@@ -145,6 +147,7 @@
 		"uniques": [
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
+			"Provides [1] [Housing] <in this city>",
 			"[+1 Gold] <after discovering [Trade]>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
@@ -156,6 +159,7 @@
 		"turnsToBuild": 8,
 		"techRequired": "Animal Husbandry",
 		"uniques": [
+			"Provides [1] [Housing] <in this city>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -167,6 +171,7 @@
 		"gold": 1,
 		"techRequired": "Irrigation",
 		"uniques": [
+			"Provides [1] [Housing] <in this city>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -186,6 +191,7 @@
 		"food": 1,
 		"techRequired": "Fishing",
 		"uniques": [
+			"Provides [1] [Housing] <in this city>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
