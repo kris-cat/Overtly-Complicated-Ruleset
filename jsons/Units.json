@@ -201,7 +201,7 @@
 		"rangedStrength": 14,
 		"cost": 75,
 		"requiredTech": "Mathematics",
-		"promotions": ["Chu-ko-nu Ability"],
+		"promotions": ["[Chu-Ko-Nu] ability"],
 		"attackSound": "arrow"
 	},
 	// Classical Era Mounted Units
