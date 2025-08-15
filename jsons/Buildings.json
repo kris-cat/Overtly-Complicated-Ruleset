@@ -75,7 +75,7 @@
 		"uniques": [
 			"Unsellable","Automatically built in all cities where it is buildable","Never destroyed when the city is captured",
 			"Must be next to [Coast]",
-			"Unbuildable <if [Housing Fresh Water Buff] is constructed> <in this city>",
+			"Unavailable <if [Housing Fresh Water Buff] is constructed> <in this city>",
 			"Provides [2] [Housing] <in this city>"
 		]
 	},
