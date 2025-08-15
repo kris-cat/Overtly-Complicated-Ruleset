@@ -75,8 +75,7 @@
 		"uniques": [
 			"Unsellable","Automatically built in all cities where it is buildable","Never destroyed when the city is captured",
 			"Must be next to [Coast]",
-			"Unavailable <if [Housing Fresh Water Buff] is constructed> <in this city>",
-			"Provides [2] [Housing] <in this city>"
+			"Provides [2] [Housing] <if [Housing Fresh Water Buff] is not constructed> <in this city>"
 		]
 	},
 	// Ancient Era
