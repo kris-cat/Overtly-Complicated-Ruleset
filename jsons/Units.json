@@ -116,6 +116,29 @@
 		],
 		"attackSound": "throw"
 	},
+	// Ancient Era Naval Units
+	{
+		"name": "Trireme",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Galley",
+		"unitType": "Melee Water",
+		"uniqueTo": "Barbarians",
+		"replaces": "Warrior",
+		"movement": 3,
+		"strength": 8,
+		"cost": 40,
+		"uniques": ["Cannot enter ocean tiles"],
+		"attackSound": "nonmetalhit"
+		//Barbarian unique naval unit, weaker and slower than Trireme.
+	},
 	// Classical Era Melee Units
 	{
 		"name": "Swordsman",
