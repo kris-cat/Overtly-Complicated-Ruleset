@@ -13,7 +13,7 @@
 		"cost": 0,
 		"uniques": [
 			"Indicates the capital city",
-			"Provides [4] [Housing] <starting from the [Classical era]> <in this city>"
+			"Provides [4] [Housing] <in this city> <starting from the [Classical era]>"
 		]
 	},
 	// Dev Buildings
