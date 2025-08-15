@@ -152,7 +152,7 @@
 	},
 	{
 		"name": "Stone Works",
-		"happiness": 1,
+		"happiness": 2,
 		"production": 1,
 		"requiredNearbyImprovedResources": ["Marble", "Stone"],
 		"maintenance": 1,
@@ -210,7 +210,7 @@
 	{
 		"name": "Arena",
 		"maintenance": 1,
-		"happiness": 2,
+		"happiness": 3,
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry"
 	},
@@ -219,7 +219,7 @@
 		"replaces": "Arena",
 		"uniqueTo": "Rome",
 		"maintenance": 1,
-		"happiness": 3,
+		"happiness": 4,
 		"uniques": ["[+1 Culture] per [3] population [in this city]"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry"
