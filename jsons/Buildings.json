@@ -78,7 +78,7 @@
 			"Provides [2] [Housing] <if [Housing Fresh Water Buff] is not constructed> <in this city>"
 		]
 	},
-	// Ancient Era
+	// Ancient Era - Starting Tech
 	{
 		"name": "Monument",
 		"culture": 2,
@@ -89,14 +89,85 @@
 			"Destroyed when the city is captured"
 		]
 	},
+	// Ancient Era - First Column
 	{
 		"name": "Granary",
 		"food": 2,
 		"cost": 40,
 		"maintenance": 1,
 		"hurryCostModifier": 25
+		"requiredTech": "Pottery"
 		"uniques": [
 			"Provides [2] [Housing] <in this city>"
 		]
+	},
+	{
+		"name": "Shrine",
+		"faith": 1,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": []
+	},
+	{
+		"name": "Circus",
+		"requiredNearbyImprovedResources": ["Horses"],
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Animal Husbandry"
+	},
+	//Ancient Era - Second Column
+	{
+		"name": "Water Mill",
+		"maintenance": 2,
+		"food": 2,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be on [River]"],
+		"requiredTech": "Wheel"
+	},
+	{
+		"name": "Stone Works",
+		"happiness": 1,
+		"production": 1,
+		"requiredNearbyImprovedResources": ["Stone"],
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Must not be on [Plains]",
+			"[+1 Production] from [Stone] tiles [in this city]",
+		],
+		"requiredTech": "Construction"
+	},
+	//Ancient Era - Third Column
+	{
+		"name": "Library",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] per [3] population [in this city]"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Paper Maker",
+		"replaces": "Library",
+		"uniqueTo": "China",
+		"hurryCostModifier": 25,
+		"gold": 2,
+		"uniques": ["[+1 Science] per [3] population [in this city]"],
+		"requiredTech": "Writing"
+	}
+	{
+		"name": "Market",
+		"gold": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Gold] per [3] population [in this city]"],
+		"requiredTech": "Trade"
+	},
+	{
+		"name": "Barracks",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Military Organisation"
 	}
 ]
