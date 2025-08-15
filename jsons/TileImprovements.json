@@ -15,10 +15,14 @@
 	{
 		"name": "City center",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Ensures a minimum tile yield of [+2 Food, +1 Production, +20 Happiness]",
-            "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"],
+		"uniques": [
+			"Ensures a minimum tile yield of [+2 Food, +1 Production, +10 Happiness]",
+			"Provides [12] [Housing] <in this city>",
+            "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"
+		],
         "civilopediaText": [
 			{"text":"Marks the center of a city"},
+			{"text":"Provides 12 Housing"},
 			{"text":"Appearance changes with the technological era of the owning civilization"}
 		]
 	},
@@ -96,6 +100,7 @@
 		"techRequired": "Agriculture",
 		"uniques": [
 			"Can also be built on tiles adjacent to fresh water",
+			"Provides [1] [Housing] <in this city>",
             "Pillaging this improvement yields approximately [+18 Gold]"
 		],
 		"shortcutKey": "F"
@@ -117,7 +122,7 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
-		"uniques": [ 
+		"uniques": [
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
 		"shortcutKey": "M"
@@ -128,7 +133,11 @@
 		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Trade",
-		"uniques": ["[+1 Gold] <after discovering [Currency]>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": [
+			"Provides [2] [Housing] <in this city>",
+			"[+1 Gold] <after discovering [Currency]>",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
 		"shortcutKey": "T"
 	},
 	// Resource-specific
@@ -139,6 +148,7 @@
 		"uniques": [
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
+			"Provides [1] [Housing] <in this city>",
 			"[+1 Gold] <after discovering [Trade]>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
@@ -149,7 +159,11 @@
 		"name": "Pasture",
 		"turnsToBuild": 8,
 		"techRequired": "Animal Husbandry",
-		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": [
+			"Provides [1] [Housing] <in this city>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
 		"shortcutKey": "P"
 	},
 	{
@@ -157,7 +171,11 @@
 		"turnsToBuild": 6,
 		"gold": 1,
 		"techRequired": "Irrigation",
-		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": [
+			"Provides [1] [Housing] <in this city>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
 		"shortcutKey": "P"
 	},
 	{
@@ -173,7 +191,11 @@
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"food": 1,
 		"techRequired": "Fishing",
-		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": [
+			"Provides [1] [Housing] <in this city>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
 		"shortcutKey": "F"
 	},
 ]
