@@ -3,7 +3,7 @@
     "uniques": [
         "Requires establishing embassies to conduct advanced diplomacy",
         "[-25]% unhappiness from the number of cities",
-        "[-25]% Unhappiness from [populationFilter] [in all cities]",
+        "[-25]% Unhappiness from [Population] [in all cities]",
         "[-75]% growth [in all cities] <when between [-10] and [-1] [Happiness]>",
         "Nullifies Growth [in all cities] <when below [-10] [Happiness]>",
         "[-50]% [Production] [in all cities] <when below [-10] [Happiness]>",
