@@ -26,12 +26,16 @@
 		"outerColor": [9, 112, 84],
 		"innerColor": [255,255,255],
 
-		"uniqueName": "Mandate of Heaven",
+		"uniqueName": "Dynastic Cycle",
 		"uniques": [
-			"Comment [15% growth, ⍾ Science and ♪ Culture in all cities during a Golden Age]",
-			"[15]% growth [in all cities] <during a Golden Age> <hidden from users>",
+			"[5]% growth [in all cities] <when above [5] [Happiness]> <hidden from users>",
+			"[5]% growth [in all cities] <when above [10] [Happiness]> <hidden from users>",
+			"[5]% growth [in all cities] <when above [15] [Happiness]> <hidden from users>",
+			"[5]% growth [in all cities] <when above [20] [Happiness]> <hidden from users>",
+			"Comment [+5% growth in all cities for every 5 ⌣Happiness, up to 20%]",
 			"[15]% [Science] [in all cities] <during a Golden Age> <hidden from users>",
-			"[15]% [Culture] [in all cities] <during a Golden Age> <hidden from users>"
+			"[15]% [Culture] [in all cities] <during a Golden Age> <hidden from users>",
+			"Comment [15% ⍾Science and ♪Culture in all cities during a Golden Age]"
 		],
     
 		"cities": [
