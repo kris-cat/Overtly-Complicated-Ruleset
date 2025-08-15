@@ -1,4 +1,15 @@
 [
+	// Housing resource
+	{
+		"name": "Housing",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"City-level resource",
+			"Cannot be traded",
+			"Not shown on world screen"
+		]
+	},
 	// Bonus resources
     {
 		"name": "Cattle",
