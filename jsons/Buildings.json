@@ -124,7 +124,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Must be next to [Fresh water]",
-			"Provides [6] [Housing] <in this city>"
+			"Provides [4] [Housing] <in this city>"
 		],
 		"requiredTech": "Irrigation"
 	},
@@ -149,7 +149,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Must be on [River]",
-			"[+1 Gold] from [River] tiles [in this city]"
+			"[+1 Food] from [River] tiles [in this city]"
 		],
 		"requiredTech": "Wheel"
 	},
@@ -200,6 +200,26 @@
 		"requiredTech": "Trade"
 	},
 	{
+		"name": "Town Square",
+		"hurryCostModifier": 25,
+		"gold": 2,
+		"uniques": [
+			"[+1 Gold] per [3] population [in this city]",
+			"Provides [2] [Housing] <in this city>"
+		],
+		"requiredTech": "Trade"
+	},
+	{
+		"name": "Forum",
+		"hurryCostModifier": 25,
+		"gold": 2,
+		"uniques": [
+			"[+2 Gold] per [3] population [in this city]",
+			"Provides [2] [Housing] <in this city>"
+		],
+		"requiredTech": "Trade"
+	},
+	{
 		"name": "Barracks",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -222,7 +242,7 @@
 		"replaces": "Arena",
 		"uniqueTo": "Rome",
 		"maintenance": 1,
-		"happiness": 4,
+		"happiness": 3,
 		"uniques": ["[+1 Culture] per [3] population [in this city]"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry"
