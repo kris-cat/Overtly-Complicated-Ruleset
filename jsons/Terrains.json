@@ -273,7 +273,6 @@
 			"Considered [Food] when determining start locations",
 			"Considered [Desirable] when determining start locations",
 			"[+1 Food] <in [Desert] tiles>",
-			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.7] and [1] <in tiles adjacent to [River] tiles>"
 		]
 	},
 	{
