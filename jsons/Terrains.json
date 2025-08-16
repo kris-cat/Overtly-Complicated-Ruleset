@@ -42,7 +42,6 @@
             "Considered [Food] when determining start locations <in [Hill] Regions>",
             "Considered [Food] when determining start locations <in [Grassland] Regions>",
             "Considered [Food] when determining start locations <in [Hybrid] Regions>",
-            "Becomes [Flood plains] when adjacent to [River]",
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
     },
 	{
@@ -265,13 +264,17 @@
 	{
 		"name": "Flood plains",
 		"type": "TerrainFeature",
-		"food": 2,
+		"food": 1,
 		"movementCost": 1,
 		"defenceBonus": -0.1,
 		"occursOn": ["Grassland","Plains","Desert","Tundra"],
-		"uniques": ["Always Fertility [5] for Map Generation",
-					"Considered [Food] when determining start locations",
-					"Considered [Desirable] when determining start locations"]
+		"uniques": [
+			"Always Fertility [5] for Map Generation",
+			"Considered [Food] when determining start locations",
+			"Considered [Desirable] when determining start locations",
+			"[+ 1 Food] <in [Desert] tiles>",
+			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.7] and [1] <in [Grassland] tiles> <in tiles adjacent to [River] tiles>"
+		]
 	},
 	{
 		"name": "Ice",
