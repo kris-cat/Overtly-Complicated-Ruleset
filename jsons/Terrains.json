@@ -70,7 +70,6 @@
             "Considered [Food] when determining start locations <in [Hill] Regions>",
             "Considered [Food] when determining start locations <in [Plains] Regions>",
             "Considered [Food] when determining start locations <in [Hybrid] Regions>",
-            "Becomes [Flood plains] when adjacent to [River]",
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
