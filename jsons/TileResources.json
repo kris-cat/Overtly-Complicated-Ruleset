@@ -106,9 +106,9 @@
 		"improvementStats": {"science": 1},
 		"uniques": [
 			"Generated on every [40] tiles <in [{Hill} {Grassland}] tiles>",
-			"Generated on every [40] tiles <in [{Hill} {Plain}] tiles>",
+			"Generated on every [40] tiles <in [{Hill} {Plains}] tiles>",
 			"Generated on every [30] tiles <in [{River} {Grassland}] tiles> <in tiles without [Hill]>",
-			"Generated on every [30] tiles <in [{River} {Plain}] <in tiles without [Hill]>"
+			"Generated on every [30] tiles <in [{River} {Plains}] <in tiles without [Hill]>"
 		]
 	},
 	// Strategic Resources
