@@ -100,14 +100,15 @@
 	{
 		"name": "Tin",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains","Grassland"],
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"science": 1},
 		"uniques": [
-			"Generated on every [30] tiles <in [Hill] tiles>",
-			"Generated on every [20] tiles <in [{River} {Land}] tiles> <in tiles without [Hill]>",
-			"Generated on every [15] tiles <in [{River} {Hill}] tiles>"
+			"Generated on every [40] tiles <in [{Hill} {Grassland}] tiles>",
+			"Generated on every [40] tiles <in [{Hill} {Plain}] tiles>",
+			"Generated on every [30] tiles <in [{River} {Grassland}] tiles> <in tiles without [Hill]>",
+			"Generated on every [30] tiles <in [{River} {Plain}] <in tiles without [Hill]>"
 		]
 	},
 	// Strategic Resources
