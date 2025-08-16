@@ -64,7 +64,7 @@
 		"uniques": ["Generated on every [27] tiles <in [{Featureless} {Plains}] tiles>",
 					"Generated on every [10] tiles <in [{Flood plains} {Desert}] tiles> <in tiles without [Hill]>",
 					"Generated on every [20] tiles <in [{Featureless} {Plains}] tiles> <in [Hill] Regions>",
-					"Generated on every [20] tiles <in [{Floodplains} {Desert}] tiles> <in tiles without [Hill]> <in [Hill] Regions>"]
+					"Generated on every [20] tiles <in [{Flood plains} {Desert}] tiles> <in tiles without [Hill]> <in [Hill] Regions>"]
 	}
 	{
 		"name": "Stone",
@@ -88,15 +88,28 @@
 	{
 		"name": "Bison",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains","Grassland"],
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Tundra"],
 		"food": 1,
 		"improvement": "Camp",
 		"uniques": [
 			"Generated on every [25] tiles <in [{Featureless} {Tundra}] tiles> <in tiles without [Hill]>",
-			"Generated on every [20] tiles <in [{Featureless} {Plain}] tiles> <in tiles without [Hill]>",
+			"Generated on every [20] tiles <in [{Featureless} {Plains}] tiles> <in tiles without [Hill]>",
 			"Generated on every [25] tiles <in [{Featureless} {Grassland}] tiles> <in tiles without [Hill]>"
 		]
-	}
+	},
+	{
+		"name": "Tin",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains","Grassland"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"science": 1},
+		"uniques": [
+			"Generated on every [30] tiles <in [Hill] tiles>",
+			"Generated on every [20] tiles <in [{River} {Land}] tiles> <in tiles without [Hill]>",
+			"Generated on every [15] tiles <in [{River} {Hill}] tiles>"
+		]
+	},
 	// Strategic Resources
 	{
 		"name": "Horses",
