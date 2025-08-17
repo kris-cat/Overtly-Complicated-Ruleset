@@ -32,11 +32,6 @@
 				],
 			},
 			{
-				"name": "Astrology",
-				"row": 2,
-				"prerequisites": ["Agriculture"],
-			},
-			{
 				"name": "Pottery",
 				"row": 3,
 				"prerequisites": ["Agriculture"],
@@ -70,6 +65,11 @@
 				"name": "Sailing",
 				"row": 1,
 				"prerequisites": ["Fishing","Pottery"],
+			},
+			{
+				"name": "Astrology",
+				"row": 2,
+				"prerequisites": ["Pottery"],
 			},
 			{
 				"name": "Calendar",
@@ -120,7 +120,7 @@
 			{
 				"name": "Trade",
 				"row": 5,
-				"prerequisites": ["Irrigation"],
+				"prerequisites": ["Animal Husbandry"],
 			},
 			{
 				"name": "Masonry",
@@ -139,8 +139,8 @@
         [
 			{
 				"name": "Writing",
-				"row": 2,
-				"prerequisites": ["Irrigation"],
+				"row": 3,
+				"prerequisites": ["Irrigation","Trade"],
 			},
 			{
 				"name": "Craftsmanship",
