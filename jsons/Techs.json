@@ -245,7 +245,7 @@
 			{
 				"name": "Military Training",
 				"row": 8,
-				"prerequisites": ["Iron Working","Horseback Riding"],
+				"prerequisites": ["Engineering","Iron Working","Horseback Riding"],
 			}
         ]
 	},
@@ -284,7 +284,7 @@
 			},
 			{
 				"name": "Saddle",
-				"row": 9,
+				"row": 8,
 				"prerequisites": ["Military Training"],
 			}
         ]
@@ -324,17 +324,17 @@
         [
 			{
 				"name": "Artisanship",
-				"row": 5,
+				"row": 4,
 				"prerequisites": ["Feudalism","Machinery"],
 			},
 			{
 				"name": "Metallurgy",
-				"row": 7,
+				"row": 6,
 				"prerequisites": ["Machinery"],
 			},
 			{
 				"name": "Siege Engines",
-				"row": 9,
+				"row": 8,
 				"prerequisites": ["Machinery","Saddle"],
 			}
         ]
