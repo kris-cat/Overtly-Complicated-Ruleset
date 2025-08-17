@@ -61,7 +61,7 @@
 		"strength": 2,
 		"rangedStrength": 8,
 		"cost": 56,
-		"requiredTech": "Wheel",
+		"requiredTech": "The Wheel",
 		"requiredResource": "Horses",
 		"obsoleteTech": "Horseback Riding",
 		"uniques": [
@@ -84,7 +84,7 @@
 		"strength": 2,
 		"rangedStrength": 8,
 		"cost": 56,
-		"requiredTech": "Wheel",
+		"requiredTech": "The Wheel",
 		"requiredResource": "Horses",
 		"obsoleteTech": "Horseback Riding",
 		"uniques": [
@@ -157,11 +157,11 @@
 		"uniqueTo": "Egypt",
 		"replaces": "Swordsman",
 		"movement": 2,
-		"strength": 11,
+		"strength": 10,
 		"cost": 50,
 		"requiredTech": "Bronze Working",
 		"uniques": [
-			"[40]% Strength <in [Open terrain] tiles>"
+			"[50]% Strength <in [Open terrain] tiles>"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
