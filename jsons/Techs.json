@@ -77,7 +77,7 @@
 				"prerequisites": ["Astrology","Pottery"],
 			},
 			{
-				"name": "Wheel",
+				"name": "The Wheel",
 				"row": 6,
 				"prerequisites": ["Animal Husbandry","Carpentry"],
 			},
@@ -125,7 +125,7 @@
 			{
 				"name": "Masonry",
 				"row": 7,
-				"prerequisites": ["Wheel","Construction"],
+				"prerequisites": ["The Wheel","Construction"],
 			}
         ]
 	},
