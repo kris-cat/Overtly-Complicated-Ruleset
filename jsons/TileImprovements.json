@@ -17,7 +17,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Ensures a minimum tile yield of [+2 Food, +1 Production]",
-			"Provides [6] [Housing] <in this city>",
+			"Provides [3] [Housing] <in this city>",
             "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"
 		],
         "civilopediaText": [
@@ -143,7 +143,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Trade",
 		"uniques": [
-			"Provides [2] [Housing] <in this city>",
+			"Provides [1] [Housing] <in this city>",
 			"[+1 Gold] <after discovering [Currency]>",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
