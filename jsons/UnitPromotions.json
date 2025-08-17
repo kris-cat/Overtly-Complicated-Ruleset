@@ -29,8 +29,8 @@
 	{
 		"name": "Roman Engineers",
 		"uniques": [
-			"Can build [Road] improvements on tiles <upon discovering [Wheel] technology>",
-			"Can build [Fort] improvements on tiles <upon discovering [Fortifications] technology>"
+			"Can build [Road] improvements on tiles <upon discovering [The Wheel] technology>",
+			"Can build [Fort] improvements on tiles <upon discovering [Engineering] technology>"
 		]
 	},
 	{
