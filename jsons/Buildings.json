@@ -13,7 +13,7 @@
 		"cost": 0,
 		"uniques": [
 			"Indicates the capital city",
-			"Provides [4] [Housing] <in this city> <starting from the [Classical era]>"
+			"Provides [2] [Housing] <in this city> <starting from the [Classical era]>"
 		]
 	},
 	// Dev Buildings
@@ -26,35 +26,35 @@
 			"Unsellable","Automatically built in all cities where it is buildable","Never destroyed when the city is captured",
 						//My name is Ozymandias, King of Kings: Look on my works, ye Mighty, and despair!
 			//May one day devs add Population as a variable to the <for every Countable> MetaConditional
-			"Consumes [2] [Housing] <in cities with at least [1] [Population]>","Consumes [2] [Housing] <in cities with at least [2] [Population]>",
-			"Consumes [2] [Housing] <in cities with at least [3] [Population]>","Consumes [2] [Housing] <in cities with at least [4] [Population]>",
-			"Consumes [2] [Housing] <in cities with at least [5] [Population]>","Consumes [2] [Housing] <in cities with at least [6] [Population]>",
-			"Consumes [2] [Housing] <in cities with at least [7] [Population]>","Consumes [2] [Housing] <in cities with at least [8] [Population]>",
-			"Consumes [2] [Housing] <in cities with at least [9] [Population]>","Consumes [2] [Housing] <in cities with at least [10] [Population]>",
-			"Consumes [2] [Housing] <in cities with at least [11] [Population]>","Consumes [2] [Housing] <in cities with at least [12] [Population]>",
-			"Consumes [2] [Housing] <in cities with at least [13] [Population]>","Consumes [2] [Housing] <in cities with at least [14] [Population]>",
-			"Consumes [2] [Housing] <in cities with at least [15] [Population]>","Consumes [2] [Housing] <in cities with at least [16] [Population]>",
-			"Consumes [2] [Housing] <in cities with at least [17] [Population]>","Consumes [2] [Housing] <in cities with at least [18] [Population]>",
-			"Consumes [2] [Housing] <in cities with at least [19] [Population]>","Consumes [2] [Housing] <in cities with at least [20] [Population]>",
-			"Consumes [2] [Housing] <in cities with at least [21] [Population]>","Consumes [2] [Housing] <in cities with at least [22] [Population]>",
-			"Consumes [2] [Housing] <in cities with at least [23] [Population]>","Consumes [2] [Housing] <in cities with at least [24] [Population]>",
-			"Consumes [2] [Housing] <in cities with at least [25] [Population]>","Consumes [2] [Housing] <in cities with at least [26] [Population]>",
-			"Consumes [2] [Housing] <in cities with at least [27] [Population]>","Consumes [2] [Housing] <in cities with at least [28] [Population]>",
-			"Consumes [2] [Housing] <in cities with at least [29] [Population]>","Consumes [2] [Housing] <in cities with at least [30] [Population]>",
-			"Consumes [2] [Housing] <in cities with at least [31] [Population]>","Consumes [2] [Housing] <in cities with at least [32] [Population]>",
-			"Consumes [2] [Housing] <in cities with at least [33] [Population]>","Consumes [2] [Housing] <in cities with at least [34] [Population]>",
-			"Consumes [2] [Housing] <in cities with at least [35] [Population]>","Consumes [2] [Housing] <in cities with at least [36] [Population]>",
-			"Consumes [2] [Housing] <in cities with at least [37] [Population]>","Consumes [2] [Housing] <in cities with at least [38] [Population]>",
-			"Consumes [2] [Housing] <in cities with at least [39] [Population]>","Consumes [2] [Housing] <in cities with at least [40] [Population]>",
-			"Consumes [2] [Housing] <in cities with at least [41] [Population]>","Consumes [2] [Housing] <in cities with at least [42] [Population]>",
-			"Consumes [2] [Housing] <in cities with at least [43] [Population]>","Consumes [2] [Housing] <in cities with at least [44] [Population]>",
-			"Consumes [2] [Housing] <in cities with at least [45] [Population]>","Consumes [2] [Housing] <in cities with at least [46] [Population]>",
-			"Consumes [2] [Housing] <in cities with at least [47] [Population]>","Consumes [2] [Housing] <in cities with at least [48] [Population]>",
-			"Consumes [2] [Housing] <in cities with at least [49] [Population]>","Consumes [2] [Housing] <in cities with at least [50] [Population]>",
-			"Nullifies Growth [in this city] <when below [2] [Housing]>",
-			"[-50]% growth [in this city] <when below [4] [Housing]>",
+			"Consumes [1] [Housing] <in cities with at least [1] [Population]>","Consumes [1] [Housing] <in cities with at least [2] [Population]>",
+			"Consumes [1] [Housing] <in cities with at least [3] [Population]>","Consumes [1] [Housing] <in cities with at least [4] [Population]>",
+			"Consumes [1] [Housing] <in cities with at least [5] [Population]>","Consumes [1] [Housing] <in cities with at least [6] [Population]>",
+			"Consumes [1] [Housing] <in cities with at least [7] [Population]>","Consumes [1] [Housing] <in cities with at least [8] [Population]>",
+			"Consumes [1] [Housing] <in cities with at least [9] [Population]>","Consumes [1] [Housing] <in cities with at least [10] [Population]>",
+			"Consumes [1] [Housing] <in cities with at least [11] [Population]>","Consumes [1] [Housing] <in cities with at least [12] [Population]>",
+			"Consumes [1] [Housing] <in cities with at least [13] [Population]>","Consumes [1] [Housing] <in cities with at least [14] [Population]>",
+			"Consumes [1] [Housing] <in cities with at least [15] [Population]>","Consumes [1] [Housing] <in cities with at least [16] [Population]>",
+			"Consumes [1] [Housing] <in cities with at least [17] [Population]>","Consumes [1] [Housing] <in cities with at least [18] [Population]>",
+			"Consumes [1] [Housing] <in cities with at least [19] [Population]>","Consumes [1] [Housing] <in cities with at least [20] [Population]>",
+			"Consumes [1] [Housing] <in cities with at least [21] [Population]>","Consumes [1] [Housing] <in cities with at least [22] [Population]>",
+			"Consumes [1] [Housing] <in cities with at least [23] [Population]>","Consumes [1] [Housing] <in cities with at least [24] [Population]>",
+			"Consumes [1] [Housing] <in cities with at least [25] [Population]>","Consumes [1] [Housing] <in cities with at least [26] [Population]>",
+			"Consumes [1] [Housing] <in cities with at least [27] [Population]>","Consumes [1] [Housing] <in cities with at least [28] [Population]>",
+			"Consumes [1] [Housing] <in cities with at least [29] [Population]>","Consumes [1] [Housing] <in cities with at least [30] [Population]>",
+			"Consumes [1] [Housing] <in cities with at least [31] [Population]>","Consumes [1] [Housing] <in cities with at least [32] [Population]>",
+			"Consumes [1] [Housing] <in cities with at least [33] [Population]>","Consumes [1] [Housing] <in cities with at least [34] [Population]>",
+			"Consumes [1] [Housing] <in cities with at least [35] [Population]>","Consumes [1] [Housing] <in cities with at least [36] [Population]>",
+			"Consumes [1] [Housing] <in cities with at least [37] [Population]>","Consumes [1] [Housing] <in cities with at least [38] [Population]>",
+			"Consumes [1] [Housing] <in cities with at least [39] [Population]>","Consumes [1] [Housing] <in cities with at least [40] [Population]>",
+			"Consumes [1] [Housing] <in cities with at least [41] [Population]>","Consumes [1] [Housing] <in cities with at least [42] [Population]>",
+			"Consumes [1] [Housing] <in cities with at least [43] [Population]>","Consumes [1] [Housing] <in cities with at least [44] [Population]>",
+			"Consumes [1] [Housing] <in cities with at least [45] [Population]>","Consumes [1] [Housing] <in cities with at least [46] [Population]>",
+			"Consumes [1] [Housing] <in cities with at least [47] [Population]>","Consumes [1] [Housing] <in cities with at least [48] [Population]>",
+			"Consumes [1] [Housing] <in cities with at least [49] [Population]>","Consumes [1] [Housing] <in cities with at least [50] [Population]>",
+			"Nullifies Growth [in this city] <when below [1] [Housing]>",
+			"[-50]% growth [in this city] <when below [2] [Housing]>",
 		]
-		"replacementTextForUniques": "Calculates Housing. 1 Population consumes 2 Housing. -50% Growth in this city when you have less than 4 Housing. Nullifies Growth when it is below 2."
+		"replacementTextForUniques": "Calculates Housing. 1 Population consumes 1 Housing. -50% Growth in this city when you have less than 2 Housing. Nullifies Growth when it is below 1."
 	},
 	// Ancient Era - Starting Tech
 	{
@@ -92,7 +92,7 @@
 			"Must be next to [Water]",
 			"[+1 Food] from [Fish] tiles [in this city]",
 			"[+1 Food] from [Crab] tiles [in this city]",
-			"Provides [2] [Housing] <in this city>"
+			"Provides [1] [Housing] <in this city>"
 		]
 	}
 	{
@@ -107,7 +107,7 @@
 			"[+1 Food] from [Bison] tiles [in this city]",
 			"[+1 Food] from [Bananas] tiles [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]",
-			"Provides [4] [Housing] <in this city>"
+			"Provides [2] [Housing] <in this city>"
 		]
 	},
 	{
@@ -195,7 +195,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Must be next to [Fresh water]",
-			"Provides [4] [Housing] <in this city>"
+			"Provides [2] [Housing] <in this city>"
 		],
 		"requiredTech": "Irrigation"
 	},
@@ -333,7 +333,7 @@
 		"hurryCostModifier": 0,
 		"uniques": [
 			"[25]% Food is carried over after population increases [in this city]",
-			"Provides [4] [Housing] <in this city>"
+			"Provides [2] [Housing] <in this city>"
 		],
 		"requiredTech": "Engineering"
 	},
@@ -345,7 +345,7 @@
 		"hurryCostModifier": 0,
 		"uniques": [
 			"[40]% Food is carried over after population increases [in this city]",
-			"Provides [5] [Housing] <in this city>"
+			"Provides [3] [Housing] <in this city>"
 		],
 		"requiredTech": "Engineering"
 	},
