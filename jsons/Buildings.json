@@ -197,7 +197,7 @@
 	},
 	{
 		"name": "Forum",
-		"replaces": "Arena",
+		"replaces": "Town Square",
 		"uniqueTo": "Rome",
 		"hurryCostModifier": 25,
 		"gold": 2,
