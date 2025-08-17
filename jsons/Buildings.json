@@ -51,7 +51,7 @@
 			"Consumes [1] [Housing] <in cities with at least [47] [Population]>","Consumes [1] [Housing] <in cities with at least [48] [Population]>",
 			"Consumes [1] [Housing] <in cities with at least [49] [Population]>","Consumes [1] [Housing] <in cities with at least [50] [Population]>",
 			"Nullifies Growth [in this city] <when below [1] [Housing]><in cities with at least [3] [Population]>",
-			"[-50]% growth [in this city] <when below [2] [Housing]>in cities with at least [3] [Population]>",
+			"[-50]% growth [in this city] <when below [2] [Housing]><in cities with at least [3] [Population]>",
 		]
 		"replacementTextForUniques": "Calculates Housing. 1 Population consumes 1 Housing. -50% Growth in this city when you have less than 2 Housing. Nullifies Growth when it is below 1."
 	},
