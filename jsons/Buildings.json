@@ -102,7 +102,7 @@
 		"faith": 1,
 		"cost": 40,
 		"maintenance": 1,
-		"requiredTech": "Pottery",
+		"requiredTech": "Astrology",
 		"uniques": []
 	},
 	{
@@ -118,17 +118,6 @@
 	},
 	//Ancient Era - Second Column
 	{
-		"name": "Water Well",
-		"maintenance": 1,
-		"food": 2,
-		"hurryCostModifier": 25,
-		"uniques": [
-			"Must be next to [Fresh water]",
-			"Provides [4] [Housing] <in this city>"
-		],
-		"requiredTech": "Irrigation"
-	},
-	{
 		"name": "Water Mill",
 		"maintenance": 2,
 		"food": 2,
@@ -137,7 +126,7 @@
 		"uniques": [
 			"Must be on [River]",
 		],
-		"requiredTech": "Wheel"
+		"requiredTech": "The Wheel"
 	},
 	{
 		"name": "Nilometer",
@@ -151,7 +140,7 @@
 			"Must be on [River]",
 			"[+1 Food] from [River] tiles [in this city]"
 		],
-		"requiredTech": "Wheel"
+		"requiredTech": "The Wheel"
 	},
 	{
 		"name": "Stone Works",
@@ -168,35 +157,32 @@
 	},
 	//Ancient Era - Third Column
 	{
-		"name": "Library",
+		"name": "Lighthouse",
+		"cost": 75,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["[+1 Science] per [3] population [in this city]"],
-		"requiredTech": "Writing"
+		"uniques": [
+			"[+10]% Production when constructing [Water] units [in this city]",
+			"[+1 Gold] from [Fishing Boats] tiles [in this city]"
+		],
+		"requiredTech": "Celestial Navigation"
 	},
 	{
-		"name": "Paper Maker",
-		"replaces": "Library",
-		"uniqueTo": "China",
+		"name": "Water Well",
+		"maintenance": 1,
+		"food": 2,
 		"hurryCostModifier": 25,
-		"gold": 2,
-		"uniques": ["[+1 Science] per [3] population [in this city]"],
-		"requiredTech": "Writing"
-	}
+		"uniques": [
+			"Must be next to [Fresh water]",
+			"Provides [4] [Housing] <in this city>"
+		],
+		"requiredTech": "Irrigation"
+	},
 	{
 		"name": "Circus",
 		"requiredNearbyImprovedResources": ["Horses"],
 		"happiness": 2,
 		"hurryCostModifier": 25,
-		"requiredTech": "Trade"
-	},
-	{
-		"name": "Town Square",
-		"hurryCostModifier": 25,
-		"uniques": [
-			"[+2 Gold] per [3] population [in this city]",
-			"Provides [2] [Housing] <in this city>"
-		],
 		"requiredTech": "Trade"
 	},
 	{
@@ -211,6 +197,8 @@
 	},
 	{
 		"name": "Forum",
+		"replaces": "Arena",
+		"uniqueTo": "Rome",
 		"hurryCostModifier": 25,
 		"gold": 2,
 		"uniques": [
@@ -218,17 +206,6 @@
 			"Provides [2] [Housing] <in this city>"
 		],
 		"requiredTech": "Trade"
-	},
-	{
-		"name": "Barracks",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"uniques": [
-			"New [Military] units start with [15] XP [in this city]",
-			"Provides [1] [Housing] <in this city>",
-			"Destroyed when the city is captured"
-		],
-		"requiredTech": "Military Organisation"
 	},
 	{
 		"name": "Arena",
@@ -246,6 +223,34 @@
 		"uniques": ["[+1 Culture] per [3] population [in this city]"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry"
+	},
+	// Ancient Era - Fourth Column
+	{
+		"name": "Library",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] per [3] population [in this city]"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Paper Maker",
+		"replaces": "Library",
+		"uniqueTo": "China",
+		"hurryCostModifier": 25,
+		"gold": 2,
+		"uniques": ["[+1 Science] per [3] population [in this city]"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Barracks",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"New [Military] units start with [15] XP [in this city]",
+			"Provides [1] [Housing] <in this city>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Organised Warfare"
 	},
 	//Classical Era - First Column
 	{
