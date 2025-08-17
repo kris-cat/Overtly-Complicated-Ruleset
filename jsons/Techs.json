@@ -74,7 +74,7 @@
 			{
 				"name": "Calendar",
 				"row": 3,
-				"prerequisites": ["Astrology","Pottery"],
+				"prerequisites": ["Pottery"],
 			},
 			{
 				"name": "The Wheel",
