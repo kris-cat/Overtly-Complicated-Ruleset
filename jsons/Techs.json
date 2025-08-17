@@ -32,6 +32,11 @@
 				],
 			},
 			{
+				"name": "Astrology",
+				"row": 2,
+				"prerequisites": ["Agriculture"],
+			},
+			{
 				"name": "Pottery",
 				"row": 3,
 				"prerequisites": ["Agriculture"],
@@ -67,14 +72,9 @@
 				"prerequisites": ["Fishing","Pottery"],
 			},
 			{
-				"name": "Astrology",
-				"row": 2,
-				"prerequisites": ["Pottery"],
-			},
-			{
-				"name": "Irrigation",
-				"row": 4,
-				"prerequisites": ["Pottery"],
+				"name": "Calendar",
+				"row": 3,
+				"prerequisites": ["Astrology","Pottery"],
 			},
 			{
 				"name": "Wheel",
@@ -103,36 +103,6 @@
 		"techs":
         [
 			{
-				"name": "Writing",
-				"row": 3,
-				"prerequisites": ["Astrology","Irrigation"],
-			},
-			{
-				"name": "Trade",
-				"row": 5,
-				"prerequisites": ["Irrigation","Wheel"],
-			},
-			{
-				"name": "Masonry",
-				"row": 7,
-				"prerequisites": ["Wheel","Construction"],
-			},
-			{
-				"name": "Military Organisation",
-				"row": 9,
-				"prerequisites": ["Construction","Bronze Working"],
-			}
-        ]
-	},
-	{
-        "columnNumber": 4,
-		"era": "Classical era",
-		"techCost": 120,
-		"buildingCost": 60,
-		"wonderCost": 185,
-		"techs":
-        [
-			{
 				"name": "Celestial Navigation",
 				"row": 1,
 				"prerequisites": ["Sailing","Astrology"],
@@ -140,27 +110,47 @@
 			{
 				"name": "Mysticism",
 				"row": 2,
-				"prerequisites": ["Astrology","Writing"],
+				"prerequisites": ["Astrology"],
 			},
 			{
-				"name": "Mathematics",
+				"name": "Irrigation",
 				"row": 3,
-				"prerequisites": ["Writing","Trade"],
+				"prerequisites": ["Calendar","Animal Husbandry"],
 			},
 			{
-				"name": "Horseback Riding",
+				"name": "Trade",
+				"row": 5,
+				"prerequisites": ["Irrigation"],
+			},
+			{
+				"name": "Masonry",
+				"row": 7,
+				"prerequisites": ["Wheel","Construction"],
+			}
+        ]
+	},
+	{
+        "columnNumber": 4,
+		"era": "Ancient era",
+		"techCost": 120,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs":
+        [
+			{
+				"name": "Writing",
+				"row": 2,
+				"prerequisites": ["Irrigation"],
+			},
+			{
+				"name": "Craftsmanship",
 				"row": 6,
-				"prerequisites": ["Trade","Military Organisation"],
+				"prerequisites": ["Trade","Masonry"],
 			},
 			{
-				"name": "Fortifications",
-				"row": 8,
-				"prerequisites": ["Masonry","Military Organisation"],
-			},
-			{
-				"name": "Iron Working",
-				"row": 10,
-				"prerequisites": ["Bronze Working"],
+				"name": "Organised Warfare",
+				"row": 9,
+				"prerequisites": ["Masonry","Bronze Working"],
 			}
         ]
 	},
@@ -173,29 +163,24 @@
 		"techs":
         [
 			{
-				"name": "Drama and Poetry",
+				"name": "Spirituality",
 				"row": 2,
-				"prerequisites": ["Mysticism","Mathematics"],
+				"prerequisites": ["Mysticism","Writing"],
 			},
 			{
-				"name": "Philosophy",
-				"row": 3,
-				"prerequisites": ["Mysticism","Mathematics"],
-			},
-			{
-				"name": "Currency",
+				"name": "Mathematics",
 				"row": 4,
-				"prerequisites": ["Mathematics"],
+				"prerequisites": ["Writing","Trade"],
 			},
 			{
-				"name": "Engineering",
-				"row": 8,
-				"prerequisites": ["Fortifications"],
+				"name": "Iron Working",
+				"row": 7,
+				"prerequisites": ["Craftsmanship","Organised Warfare"],
 			},
 			{
-				"name": "Metal Casting",
-				"row": 10,
-				"prerequisites": ["Fortifications","Iron Working"],
+				"name": "Horseback Riding",
+				"row": 9,
+				"prerequisites": ["Organised Warfare"],
 			}
         ]
 	},
@@ -210,22 +195,147 @@
 			{
 				"name": "Shipbuilding",
 				"row": 1,
-				"prerequisites": ["Celestial Navigation"],
+				"prerequisites": ["Celestial Navigation","Mathematics"],
 			},
 			{
-				"name": "Theology",
+				"name": "Drama and Poetry",
+				"row": 2,
+				"prerequisites": ["Spirituality"],
+			},
+			{
+				"name": "Philosophy",
+				"row": 3,
+				"prerequisites": ["Spirituality"],
+			},
+			{
+				"name": "Currency",
+				"row": 5,
+				"prerequisites": ["Mathematics"],
+			},
+			{
+				"name": "Engineering",
+				"row": 6,
+				"prerequisites": ["Mathematics","Iron Working"],
+			}
+        ]
+	},
+	{
+        "columnNumber": 7,
+		"era": "Classical era",
+		"techCost": 200,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs":
+        [
+			{
+				"name": "Recreation",
+				"row": 2,
+				"prerequisites": ["Drama and Poetry","Philosophy"],
+			},
+			{
+				"name": "Recorded History",
 				"row": 3,
 				"prerequisites": ["Drama and Poetry","Philosophy"],
 			},
 			{
-				"name": "Artisanship",
+				"name": "Urban Infrastracture",
 				"row": 5,
 				"prerequisites": ["Currency","Engineering"],
 			},
 			{
-				"name": "Urban Architecture",
-				"row": 8,
-				"prerequisites": ["Engineering","Metal Casting"],
+				"name": "Military Training",
+				"row": 5,
+				"prerequisites": ["Iron Working","Horseback Riding"],
+			}
+        ]
+	},
+	{
+        "columnNumber": 8,
+		"era": "Post-Classical era",
+		"techCost": 200,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs":
+        [
+			{
+				"name": "Optics",
+				"row": 1,
+				"prerequisites": ["Shipbuilding"],
+			},
+			{
+				"name": "Theology",
+				"row": 2,
+				"prerequisites": ["Recreation","Recorded History"],
+			},
+			{
+				"name": "Civil Service",
+				"row": 3,
+				"prerequisites": ["Recorded History","Urban Infrastracture"],
+			},
+			{
+				"name": "Guilds",
+				"row": 5,
+				"prerequisites": ["Urban Infrastracture"],
+			},
+			{
+				"name": "Buttress",
+				"row": 6,
+				"prerequisites": ["Urban Infrastracture"],
+			},
+			{
+				"name": "Saddle",
+				"row": 9,
+				"prerequisites": ["Military Training"],
+			}
+        ]
+	},
+	{
+        "columnNumber": 9,
+		"era": "Post-Classical era",
+		"techCost": 200,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs":
+        [
+			{
+				"name": "Education",
+				"row": 2,
+				"prerequisites": ["Optics","Theology"],
+			},
+			{
+				"name": "Feudalism",
+				"row": 3,
+				"prerequisites": ["Theology","Civil Service"],
+			},
+			{
+				"name": "Machinery",
+				"row": 3,
+				"prerequisites": ["Guilds","Buttress"],
+			}
+        ]
+	},
+	{
+        "columnNumber": 10,
+		"era": "Post-Classical era",
+		"techCost": 200,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs":
+        [
+			{
+				"name": "Artisanship",
+				"row": 2,
+				"prerequisites": ["Feudalism","Machinery"],
+			},
+			{
+				"name": "Metallurgy",
+				"row": 3,
+				"prerequisites": ["Machinery"],
+			},
+			{
+				"name": "Siege Engines",
+				"row": 3,
+				"prerequisites": ["Machinery","Saddle"],
 			}
         ]
 	}
