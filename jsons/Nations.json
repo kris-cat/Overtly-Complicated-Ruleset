@@ -114,8 +114,8 @@
 
 		"tradeRequest": "Generous Egypt makes you this offer.",
 
-		"outerColor": [255, 252, 3],
-		"innerColor": [83, 0, 208],
+		"outerColor": [234, 225, 157],
+		"innerColor": [1, 79, 81],
 		"uniqueName": "Monument Builders",
 		"uniques": ["[+20]% Production when constructing [All] wonders [in all cities]"],
 		"cities": [
