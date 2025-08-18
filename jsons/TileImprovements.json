@@ -17,6 +17,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Ensures a minimum tile yield of [+2 Food, +1 Production]",
+			"Consumes [1] [Bureaucracy] <in this city>",
             "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"
 		],
         "civilopediaText": [
