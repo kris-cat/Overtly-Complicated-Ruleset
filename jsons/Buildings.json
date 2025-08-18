@@ -100,6 +100,32 @@
 	},
 	//Ancient Era - Second Column
 	{
+		"name": "Fishing Town",
+		"requiredResource": "Districts",
+		"maintenance": 2,
+		"uniques": [
+			"Creates a [Fishing Town] improvement on a specific tile",
+			"Provides [-1] [Districts] <in this city>",
+			"Unsellable",
+			"Cannot be purchased",
+			"Never destroyed when the city is captured",
+		],
+		"requiredTech": "Sailing"
+	},
+	{
+		"name": "Farming Town",
+		"requiredResource": "Districts",
+		"maintenance": 2,
+		"uniques": [
+			"Creates a [Farming Town] improvement on a specific tile",
+			"Provides [-1] [Districts] <in this city>",
+			"Unsellable",
+			"Cannot be purchased",
+			"Never destroyed when the city is captured",
+		],
+		"requiredTech": "Calendar"
+	},
+	{
 		"name": "Water Mill",
 		"maintenance": 2,
 		"food": 2,
