@@ -105,10 +105,19 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"food": 3,
 		"turnsToBuild": 9,
-		"techRequired": "Irrigation",
+		"techRequired": "Calendar",
 		"uniques": [
+			"Great Improvement",
+			"Tile provides yield without assigned population",
             "Pillaging this improvement yields approximately [+25 Gold]",
-			"Cannot be built on [Water] tiles"
+			"Irremovable",
+			"Removes removable features when built",
+			"Cannot be built on [Mountain] tiles",
+			"Cannot be built on [Great Improvement] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
+			"Must be next to [Bonus resource]",
+			"Unavailable <in tiles adjacent to [Great Improvement] tiles>"
 		],
 		"shortcutKey": "F"
 	},
@@ -117,9 +126,19 @@
 		"terrainsCanBeBuiltOn": ["Water"],
 		"food": 3,
 		"turnsToBuild": 9,
-		"techRequired": "Irrigation",
+		"techRequired": "Sailing",
 		"uniques": [
+			"Great Improvement",
+			"Tile provides yield without assigned population",
             "Pillaging this improvement yields approximately [+25 Gold]",
+			"Irremovable",
+			"Removes removable features when built",
+			"Cannot be built on [Great Improvement] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
+			"Must be next to [Bonus resource]",
+			"Must be next to [Coastal]",
+			"Unavailable <in tiles adjacent to [Great Improvement] tiles>"		
 		],
 		"shortcutKey": "F"
 	},
