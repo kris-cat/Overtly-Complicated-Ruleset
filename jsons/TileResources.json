@@ -19,7 +19,6 @@
 			"Doesn't generate naturally<hidden from users>",
 			"Cannot be traded<hidden from users>",
 		]
-		"replacementTextForUniques": "Bureaucracy is special resource-mechanic. It acts as soft-limit towards settler expansion and population growth."
 	},
 	},
 	// Bonus resources
