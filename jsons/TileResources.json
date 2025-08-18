@@ -20,6 +20,16 @@
 			"Cannot be traded"
 		]
 	},
+	{
+		"name": "Districts",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Cannot be traded",
+			"City-level resource",
+			"Not shown on world screen"
+		]
+	},
 	// Bonus resources
     {
 		"name": "Cattle",
