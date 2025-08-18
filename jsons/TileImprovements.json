@@ -100,6 +100,29 @@
         "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
     },
 	// District Improvements
+	{
+		"name": "Farming Town",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"food": 3,
+		"turnsToBuild": 9,
+		"techRequired": "Irrigation",
+		"uniques": [
+            "Pillaging this improvement yields approximately [+25 Gold]",
+			"Cannot be built on [Water] tiles"
+		],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Fishing Town",
+		"terrainsCanBeBuiltOn": ["Water"],
+		"food": 3,
+		"turnsToBuild": 9,
+		"techRequired": "Irrigation",
+		"uniques": [
+            "Pillaging this improvement yields approximately [+25 Gold]",
+		],
+		"shortcutKey": "F"
+	},
 	// Basic Improvements
 	{
 		"name": "Farm",
