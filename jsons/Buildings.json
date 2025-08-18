@@ -24,11 +24,11 @@
 		"maintenance": 0,
 		"uniques": [
 			"Unsellable","Automatically built in all cities where it is buildable","Never destroyed when the city is captured",
-			"Consumes [1] [Bureaucracy] <in cities with at least [7] [Population]>","Consumes [1] [Bureaucracy] <in cities with at least [14] [Population]>",
-			"Consumes [1] [Bureaucracy] <in cities with at least [21] [Population]>","Consumes [1] [Bureaucracy] <in cities with at least [28] [Population]>",
-			"Consumes [1] [Bureaucracy] <in cities with at least [35] [Population]>","Consumes [1] [Bureaucracy] <in cities with at least [42] [Population]>",
-			"Consumes [1] [Bureaucracy] <in cities with at least [49] [Population]>","Consumes [1] [Bureaucracy] <in cities with at least [56] [Population]>",
-			"Consumes [1] [Bureaucracy] <in cities with at least [63] [Population]>","Consumes [1] [Bureaucracy] <in cities with at least [70] [Population]>",
+			"Consumes [1] [Bureaucracy] <in cities with at least [8] [Population]>","Consumes [1] [Bureaucracy] <in cities with at least [16] [Population]>",
+			"Consumes [1] [Bureaucracy] <in cities with at least [24] [Population]>","Consumes [1] [Bureaucracy] <in cities with at least [32] [Population]>",
+			"Consumes [1] [Bureaucracy] <in cities with at least [40] [Population]>","Consumes [1] [Bureaucracy] <in cities with at least [48] [Population]>",
+			"Consumes [1] [Bureaucracy] <in cities with at least [56] [Population]>","Consumes [1] [Bureaucracy] <in cities with at least [64] [Population]>",
+			"Consumes [1] [Bureaucracy] <in cities with at least [72] [Population]>","Consumes [1] [Bureaucracy] <in cities with at least [80] [Population]>",
 		]
 		"replacementTextForUniques": "Dummy building used to calculate Bureaucracy costs from population. For more info about Bureaucracy, visit it's Civilipedia entry."
 	},
