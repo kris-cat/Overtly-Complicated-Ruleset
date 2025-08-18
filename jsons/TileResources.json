@@ -12,15 +12,15 @@
 	//		"Not shown on world screen"
 	//
 	//},
-	// Bureaucracy exists to limit the expansion of nations, both internally and externally
-	// Bureaucracy is consumed for each new city founded, Settlers and per seven population in cities
 	{
 		"name": "Bureaucracy",
 		"resourceType": "Strategic",
 		"uniques": [
-			"Doesn't generate naturally",
-			"Cannot be traded",
+			"Doesn't generate naturally<hidden from users>",
+			"Cannot be traded<hidden from users>",
 		]
+		"replacementTextForUniques": "Bureaucracy is special resource-mechanic. It acts as soft-limit towards settler expansion and population growth."
+	},
 	},
 	// Bonus resources
     {
