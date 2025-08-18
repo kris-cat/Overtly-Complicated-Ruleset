@@ -15,11 +15,7 @@
         "[-75]% Strength for cities <when defending>",
 
         "Provides [5] [Bureaucracy]",
-        "[-20]% Production when constructing [Settler] units [in all cities] <when below [0] [Bureaucracy]>",
-        "[-20]% Production when constructing [Settler] units [in all cities] <when below [-1] [Bureaucracy]>",
-        "[-20]% Production when constructing [Settler] units [in all cities] <when below [-2] [Bureaucracy]>",
-        "[-20]% Production when constructing [Settler] units [in all cities] <when below [-3] [Bureaucracy]>",
-        "[-20]% Production when constructing [Settler] units [in all cities] <when below [-4] [Bureaucracy]>"
+        "[-50]% Production when constructing [Settler] units [in all cities] <when below [0] [Bureaucracy]>"
 
         // TODO: Implement the uniques below
         // "[+20]% [Culture] [in all cities] <during a golden age>",
