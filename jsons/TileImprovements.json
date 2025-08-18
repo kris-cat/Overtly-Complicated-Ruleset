@@ -98,6 +98,7 @@
         "uniques": ["Unbuildable", "Excluded from map editor"],
         "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
     },
+	// District Improvements
 	// Basic Improvements
 	{
 		"name": "Farm",
