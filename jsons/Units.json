@@ -76,7 +76,7 @@
 	{
 		"name": "War Chariot",
 		"unitType": "Mounted Ranged",
-		"uniqueTo": "Egypt",
+		"uniqueTo": "Kemet",
 		"replaces": "Chariot Archer",
 		"upgradesTo": "Skirmisher",
 		"range": 1,
@@ -154,7 +154,7 @@
 	{
 		"name": "Khopesh",
 		"unitType": "Sword",
-		"uniqueTo": "Egypt",
+		"uniqueTo": "Kemet",
 		"replaces": "Swordsman",
 		"movement": 2,
 		"strength": 10,
