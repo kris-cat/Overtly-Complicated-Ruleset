@@ -5,12 +5,12 @@
 	//{
 	//	"name": "Housing",
 	//	"resourceType": "Strategic",
-	//	"uniques": [
+	//	"uniques": 
 	//		"Doesn't generate naturally",
 	//		"City-level resource",
 	//		"Cannot be traded",
 	//		"Not shown on world screen"
-	//]
+	//
 	//},
 	// Bureaucracy exists to limit the expansion of nations, both internally and externally
 	// Bureaucracy is consumed for each new city founded, Settlers and per seven population in cities
