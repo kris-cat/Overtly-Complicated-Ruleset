@@ -90,9 +90,9 @@
 		]
 	}
 	{
-		"name": "Egypt",
+		"name": "Kemet",
 		"leaderName": "Ramesses II",
-		"adjective": ["Egyptian"],
+		"adjective": ["Kemetic"],
 		"startBias": [
 			"[Desert]",
 			"[River]",
