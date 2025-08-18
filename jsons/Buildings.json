@@ -43,18 +43,6 @@
 			"Destroyed when the city is captured"
 		]
 	},
-	{
-		"name": "Obelisk",
-        "replaces": "Monument",
-		"uniqueTo": "Egypt",
-		"culture": 2,
-		"cost": 40,
-		"hurryCostModifier": 40,
-		"maintenance": 0,
-		"uniques": [
-			"Destroyed when the city is captured"
-		]
-	},
 	// Ancient Era - First Column
 	{
 		"name": "Fishing Dock"
@@ -125,7 +113,7 @@
 	{
 		"name": "Nilometer",
 		"replaces": "Water Mill",
-		"uniqueTo": "Egypt",
+		"uniqueTo": "Kemet",
 		"maintenance": 1,
 		"food": 2,
 		"production": 2,
@@ -258,7 +246,7 @@
 	{
 		"name": "Burial Tomb",
 		"replaces": "Temple",
-		"uniqueTo": "Egypt",
+		"uniqueTo": "Kemet",
 		"maintenance": 0,
 		"uniques": ["Doubles Gold given to enemy if city is captured"],
 		"faith": 2,
