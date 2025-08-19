@@ -105,7 +105,6 @@
 		"name": "Farming Town",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"food": 3,
-		"turnsToBuild": 9,
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
@@ -117,7 +116,8 @@
 			"Cannot be built on [Luxury resource] tiles",
 			"Cannot be built on [Bonus resource] tiles",
 			"Must be next to [Agricultural Resource]",
-			"Unavailable <in tiles adjacent to [Great Improvement] tiles>"
+			"Unavailable <in tiles adjacent to [Great Improvement] tiles>",
+			"Will not be replaced by automated units"
 		],
 		"shortcutKey": "F"
 	},
@@ -125,7 +125,6 @@
 		"name": "Fishing Town",
 		"terrainsCanBeBuiltOn": ["Water"],
 		"food": 3,
-		"turnsToBuild": 9,
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
@@ -137,7 +136,8 @@
 			"Cannot be built on [Bonus resource] tiles",
 			"Must be next to [Bonus resource]",
 			"Only available <with [1] to [6] neighboring [Land] tiles>",
-			"Unavailable <in tiles adjacent to [Great Improvement] tiles>"		
+			"Unavailable <in tiles adjacent to [Great Improvement] tiles>",
+			"Will not be replaced by automated units"
 		],
 		"shortcutKey": "F"
 	},
@@ -236,7 +236,7 @@
 	},
 	{
 		"name": "Fishing Boats",
-		"turnsToBuild": 1,  // Allows this to be constructed for city-states
+		"turnsToBuild": 7, 
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"food": 1,
 		"techRequired": "Fishing",
