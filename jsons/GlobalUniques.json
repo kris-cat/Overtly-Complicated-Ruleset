@@ -13,10 +13,10 @@
         "[-1] Sight <for [Embarked] units>",
         "[-75]% Strength for cities <when attacking>",
         "[-75]% Strength for cities <when defending>",
-
         "Provides [5] [Bureaucracy]",
         "Provides [1] [Districts] <in [all] cities>",
         "Provides [1] [Districts] <in cities with at least [5] [Population]>",
         "Provides [1] [Districts] <in cities with at least [10] [Population]>",
+        
     ]
 }
