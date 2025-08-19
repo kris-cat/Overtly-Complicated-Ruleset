@@ -103,7 +103,7 @@
 		"name": "Fishing Town",
 		"requiredResource": "Districts",
 		"maintenance": 2,
-		"requiredNearbyImprovedResources": ["Fish","Crab","Pearls","Whale"],
+		"requiredNearbyImprovedResources": ["Fish","Crab","Pearls","Whales"],
 		"uniques": [
 			"Must be next to [Water]",
 			"Creates a [Fishing Town] improvement on a specific tile",
