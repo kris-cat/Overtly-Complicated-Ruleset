@@ -16,7 +16,7 @@
 		"name": "City center",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-			"District",
+			"Great Improvement",
 			"Ensures a minimum tile yield of [+2 Food, +1 Production]",
 			"Consumes [1] [Bureaucracy] <in this city>",
             "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"
@@ -107,7 +107,7 @@
 		"food": 3,
 		"turnsToBuild": 9,
 		"uniques": [
-			"District",
+			"Great Improvement",
 			"Tile provides yield without assigned population",
             "Pillaging this improvement yields approximately [+25 Gold]",
 			"Irremovable",
@@ -127,7 +127,7 @@
 		"food": 3,
 		"turnsToBuild": 9,
 		"uniques": [
-			"District",
+			"Great Improvement",
 			"Tile provides yield without assigned population",
             "Pillaging this improvement yields approximately [+25 Gold]",
 			"Irremovable",
