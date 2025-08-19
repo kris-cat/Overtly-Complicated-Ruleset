@@ -106,7 +106,7 @@
 		"food": 3,
 		"turnsToBuild": 9,
 		"uniques": [
-			"Great Improvement",
+			"District",
 			"Tile provides yield without assigned population",
             "Pillaging this improvement yields approximately [+25 Gold]",
 			"Irremovable",
@@ -115,7 +115,7 @@
 			"Cannot be built on [Great Improvement] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 			"Cannot be built on [Bonus resource] tiles",
-			"Must be next to [Bonus resource]",
+			"Must be next to [Agricultural Resource]",
 			"Unavailable <in tiles adjacent to [Great Improvement] tiles>"
 		],
 		"shortcutKey": "F"
@@ -126,7 +126,7 @@
 		"food": 3,
 		"turnsToBuild": 9,
 		"uniques": [
-			"Great Improvement",
+			"District",
 			"Tile provides yield without assigned population",
             "Pillaging this improvement yields approximately [+25 Gold]",
 			"Irremovable",
