@@ -17,10 +17,10 @@
         "Provides [1] [Districts] <in [all] cities>",
         "Provides [1] [Districts] <in cities with at least [5] [Population]>",
         "Provides [1] [Districts] <in cities with at least [10] [Population]>",
-        "Consumes [1] [Bureaucracy] <in cities with at least [8] [Population]>","Consumes [1] [Bureaucracy] <in cities with at least [16] [Population]>",
-		"Consumes [1] [Bureaucracy] <in cities with at least [24] [Population]>","Consumes [1] [Bureaucracy] <in cities with at least [32] [Population]>",
-		"Consumes [1] [Bureaucracy] <in cities with at least [40] [Population]>","Consumes [1] [Bureaucracy] <in cities with at least [48] [Population]>",
-		"Consumes [1] [Bureaucracy] <in cities with at least [56] [Population]>","Consumes [1] [Bureaucracy] <in cities with at least [64] [Population]>",
-		"Consumes [1] [Bureaucracy] <in cities with at least [72] [Population]>","Consumes [1] [Bureaucracy] <in cities with at least [80] [Population]>",
+        "Provides [-1] [Bureaucracy] <in cities with at least [8] [Population]>","Provides [-1] [Bureaucracy] <in cities with at least [16] [Population]>",
+		"Provides [-1] [Bureaucracy] <in cities with at least [24] [Population]>","Provides [-1] [Bureaucracy] <in cities with at least [32] [Population]>",
+		"Provides [-1] [Bureaucracy] <in cities with at least [40] [Population]>","Provides [-1] [Bureaucracy] <in cities with at least [48] [Population]>",
+		"Provides [-1] [Bureaucracy] <in cities with at least [56] [Population]>","Provides [-1] [Bureaucracy] <in cities with at least [64] [Population]>",
+		"Provides [-1] [Bureaucracy] <in cities with at least [72] [Population]>","Provides [-1] [Bureaucracy] <in cities with at least [80] [Population]>",
     ]
 }
