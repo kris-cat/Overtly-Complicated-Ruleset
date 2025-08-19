@@ -16,6 +16,7 @@
 		"name": "City center",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
+			"District",
 			"Ensures a minimum tile yield of [+2 Food, +1 Production]",
 			"Consumes [1] [Bureaucracy] <in this city>",
             "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"
