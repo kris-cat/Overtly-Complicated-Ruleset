@@ -103,9 +103,10 @@
 		"name": "Fishing Town",
 		"requiredResource": "Districts",
 		"maintenance": 2,
+		"requiredNearbyImprovedResources": ["Fish","Crab","Pearls","Whale"],
 		"uniques": [
+			"Must be next to [Water]",
 			"Creates a [Fishing Town] improvement on a specific tile",
-			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
@@ -116,9 +117,11 @@
 		"name": "Farming Town",
 		"requiredResource": "Districts",
 		"maintenance": 2,
+		"requiredNearbyImprovedResources": [
+			"Wheat","Cattle","Sheep","Horses","Banana","Wine","Cotton","Silk","Spices","Sugar","Incense","Citrus"
+		],
 		"uniques": [
 			"Creates a [Farming Town] improvement on a specific tile",
-			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
