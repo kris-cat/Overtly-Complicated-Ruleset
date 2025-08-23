@@ -86,7 +86,7 @@
 	{
 		"name": "Wheat",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Flood plains"], // Desert only if fresh water
+		"terrainsCanBeFoundOn": ["Plains","Desert","Flood plains"], // Desert only if fresh water
 		"food": 1,
 		"improvement": "Farm",
 		"uniques": [
@@ -96,7 +96,19 @@
 			"Generated on every [20] tiles <in [{Featureless} {Plains}] tiles> <in [Hill] Regions>",
 			"Generated on every [20] tiles <in [{Flood plains} {Desert}] tiles> <in tiles without [Hill]> <in [Hill] Regions>"
 		]
-	}
+	},
+	{
+		"name": "Rice",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"food": 1,
+		"improvement": "Farm",
+		"uniques": [
+			"Agricultural Resource",
+			"Generated on every [20] tiles <in [{Featureless} {Grassland}] tiles> <in tiles without [Hill]>",
+			"Generated on every [27] tiles <in [{Featureless} {Grassland}] tiles> <in tiles without [Hill]> <in [Hill] Regions>"
+		]
+	},
 	{
 		"name": "Stone",
 		"resourceType": "Bonus",
