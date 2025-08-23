@@ -104,7 +104,7 @@
 	{
 		"name": "Farming Town",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"turnsToBuild": 20,
+		"turnsToBuild": 10,
 		"uniques": [
 			"Only available <if [Farming Town] is constructed> <in this city>",
 			"District",
@@ -125,6 +125,7 @@
 	{
 		"name": "Fishing Town",
 		"terrainsCanBeBuiltOn": ["Water"],
+		"turnsToBuild": 10,
 		"food": 3,
 		"uniques": [
 			"District",
