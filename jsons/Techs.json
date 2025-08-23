@@ -139,7 +139,7 @@
         [
 			{
 				"name": "Writing",
-				"row": 3,
+				"row": 4,
 				"prerequisites": ["Irrigation","Trade"],
 			},
 			{
@@ -170,7 +170,7 @@
 			{
 				"name": "Mathematics",
 				"row": 4,
-				"prerequisites": ["Writing","Trade"],
+				"prerequisites": ["Writing"],
 			},
 			{
 				"name": "Iron Working",
@@ -245,7 +245,7 @@
 			{
 				"name": "Military Training",
 				"row": 8,
-				"prerequisites": ["Engineering","Iron Working","Horseback Riding"],
+				"prerequisites": ["Engineering","Horseback Riding"],
 			}
         ]
 	},
