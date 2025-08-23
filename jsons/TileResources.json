@@ -114,7 +114,10 @@
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"improvement": "Fishing Boats",
-		"uniques": ["Generated on every [10] tiles <in [{Featureless} {Coast}] tiles>"]
+		"uniques": [
+			"Fishing Resource",
+			"Generated on every [10] tiles <in [{Featureless} {Coast}] tiles>"
+		]
 	},
 	{
 		"name": "Bison",
@@ -360,13 +363,15 @@
 		"food": 1,
 		"gold": 1,
 		"improvement": "Fishing Boats",
-		"uniques": ["Generated with weight [35] <in [Tundra] Regions>",
-					"Generated with weight [10] <in [Forest] Regions>",
-					"Generated with weight [10] <in [Hill] Regions>",
-					"Generated with weight [5] <in [Plains] Regions>",
-					"Generated with weight [10] <in [Grassland] Regions>",
-					"Generated with weight [20] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]"]
+		"uniques": [
+			"Fishing Resource",
+			"Generated with weight [35] <in [Tundra] Regions>",	
+			"Generated with weight [10] <in [Forest] Regions>",
+			"Generated with weight [10] <in [Hill] Regions>",
+			"Generated with weight [5] <in [Plains] Regions>",
+			"Generated with weight [10] <in [Grassland] Regions>",	
+			"Generated with weight [20] <in [Hybrid] Regions>",
+			"Generated near City States with weight [10]"]
 	},
 	{
 		"name": "Pearls",
@@ -374,14 +379,16 @@
 		"terrainsCanBeFoundOn": ["Coast"],
 		"gold": 2,
 		"improvement": "Fishing Boats",
-		"uniques": ["Generated with weight [20] <in [Jungle] Regions>",
-					"Generated with weight [10] <in [Forest] Regions>",
-					"Generated with weight [5] <in [Desert] Regions>",
-					"Generated with weight [15] <in [Hill] Regions>",
-					"Generated with weight [5] <in [Plains] Regions>",
-					"Generated with weight [10] <in [Grassland] Regions>",
-					"Generated with weight [20] <in [Hybrid] Regions>",
-					"Generated near City States with weight [15]"]
+		"uniques": [
+			"Fishing Resource",
+			"Generated with weight [20] <in [Jungle] Regions>",
+			"Generated with weight [10] <in [Forest] Regions>",
+			"Generated with weight [5] <in [Desert] Regions>",
+			"Generated with weight [15] <in [Hill] Regions>",
+			"Generated with weight [5] <in [Plains] Regions>",
+			"Generated with weight [10] <in [Grassland] Regions>",
+			"Generated with weight [20] <in [Hybrid] Regions>",
+			"Generated near City States with weight [15]"]
 	},
 	{
 		"name": "Jewelry",
@@ -444,14 +451,16 @@
 		"food": 1,
 		"gold": 1,
 		"improvement": "Fishing Boats",
-		"uniques": ["Generated with weight [30] <in [Tundra] Regions>",
-					"Generated with weight [5] <in [Jungle] Regions>",
-					"Generated with weight [10] <in [Forest] Regions>",
-					"Generated with weight [10] <in [Hill] Regions>",
-					"Generated with weight [5] <in [Plains] Regions>",
-					"Generated with weight [20] <in [Grassland] Regions>",
-					"Generated with weight [20] <in [Hybrid] Regions>",
-					"Generated near City States with weight [15]"]
+		"uniques": [
+			"Fishing Resource",
+			"Generated with weight [30] <in [Tundra] Regions>",	
+			"Generated with weight [5] <in [Jungle] Regions>",
+			"Generated with weight [10] <in [Forest] Regions>",
+			"Generated with weight [10] <in [Hill] Regions>",
+			"Generated with weight [5] <in [Plains] Regions>",
+			"Generated with weight [20] <in [Grassland] Regions>",
+			"Generated with weight [20] <in [Hybrid] Regions>",
+			"Generated near City States with weight [15]"]
 	},
 	{
 		"name": "Salt",
