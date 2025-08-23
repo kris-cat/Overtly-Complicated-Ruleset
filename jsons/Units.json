@@ -272,21 +272,4 @@
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
 	}
-	// District constructors
-	{
-		"name": "Farming Town Founder",
-		"unitType": "Civilian",
-		"uniques": [
-            "Can instantly construct a [Farming Town] improvement <by consuming this unit>",
-			"Is part of Great Person group [Great Person]", "Unbuildable", "Uncapturable"],
-		"movement": 2
-	},
-	{
-		"name": "Fishing Town Founder",
-		"unitType": "Civilian",
-		"uniques": [
-            "Can instantly construct a [Fishing Town] improvement <by consuming this unit>",
-			"Is part of Great Person group [Great Person]", "Unbuildable", "Uncapturable"],
-		"movement": 2
-	},
 ]
