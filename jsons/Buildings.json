@@ -105,7 +105,6 @@
 		"maintenance": 2,
 		"requiredNearbyImprovedResources": ["Fish","Crab","Pearls","Whales"],
 		"uniques": [
-			"Free [Fishing Town Founder] appears",
 			"Must be next to [Water]",
 			"Unsellable",
 			"Cannot be purchased",
@@ -118,10 +117,9 @@
 		"requiredResource": "Districts",
 		"maintenance": 2,
 		"requiredNearbyImprovedResources": [
-			"Wheat","Cattle","Sheep","Horses","Banana","Wine","Cotton","Silk","Spices","Sugar","Incense","Citrus"
+			"Wheat","Cattle","Sheep","Horses","Bananas","Wine","Cotton","Silk","Spices","Sugar","Incense","Citrus"
 		],
 		"uniques": [
-			"Free [Farming Town Founder] appears",
 			"[+1 Food] from [Farm] tiles [in this city] <in tiles adjacent to [Farming Town] tiles>",
 			"Unsellable",
 			"Cannot be purchased",
