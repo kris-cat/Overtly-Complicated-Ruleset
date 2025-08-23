@@ -133,7 +133,7 @@
 			"Removes removable features when built",
 			"Cannot be built on [Great Improvement] tiles",
 			"Cannot be built on [Luxury resource] tiles",
-			"Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Fishing resource] tiles",
 			"Must be next to [Bonus resource]",
 			"Only available <with [1] to [6] neighboring [Land] tiles>",
 			"Unavailable <in tiles adjacent to [Great Improvement] tiles>",
