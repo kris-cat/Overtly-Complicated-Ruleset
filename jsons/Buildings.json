@@ -99,35 +99,35 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	//Ancient Era - Second Column
-	{
-		"name": "Fishing Town",
-		"requiredResource": "Districts",
-		"maintenance": 2,
-		"requiredNearbyImprovedResources": ["Fish","Crab","Pearls","Whales"],
-		"uniques": [
-			"Must be next to [Water]",
-			"Creates a [Fishing Town] improvement on a specific tile",
-			"Unsellable",
-			"Cannot be purchased",
-			"Never destroyed when the city is captured",
-		],
-		"requiredTech": "Sailing"
-	},
-	{
-		"name": "Farming Town",
-		"requiredResource": "Districts",
-		"maintenance": 2,
-		"requiredNearbyImprovedResources": [
-			"Wheat","Cattle","Sheep","Horses","Banana","Wine","Cotton","Silk","Spices","Sugar","Incense","Citrus"
-		],
-		"uniques": [
-			"Creates a [Farming Town] improvement on a specific tile",
-			"Unsellable",
-			"Cannot be purchased",
-			"Never destroyed when the city is captured",
-		],
-		"requiredTech": "Calendar"
-	},
+	//{
+	//	"name": "Fishing Town",
+	//	"requiredResource": "Districts",
+	//	"maintenance": 2,
+	//	"requiredNearbyImprovedResources": ["Fish","Crab","Pearls","Whales"],
+	//	"uniques": [
+	//		"Must be next to [Water]",
+	//		"Creates a [Fishing Town] improvement on a specific tile",
+	//		"Unsellable",
+	//		"Cannot be purchased",
+	//		"Never destroyed when the city is captured",
+	//	],
+	//	"requiredTech": "Sailing"
+	//},
+	//{
+	//	"name": "Farming Town",
+	//	"requiredResource": "Districts",
+	//	"maintenance": 2,
+	//	"requiredNearbyImprovedResources": [
+	//		"Wheat","Cattle","Sheep","Horses","Banana","Wine","Cotton","Silk","Spices","Sugar","Incense","Citrus"
+	//	],
+	//	"uniques": [
+	//		"Creates a [Farming Town] improvement on a specific tile",
+	//		"Unsellable",
+	//		"Cannot be purchased",
+	//		"Never destroyed when the city is captured",
+	//	],
+	//	"requiredTech": "Calendar"
+	//},
 	{
 		"name": "Water Mill",
 		"maintenance": 2,
