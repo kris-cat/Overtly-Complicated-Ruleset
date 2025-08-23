@@ -278,7 +278,7 @@
 		"unitType": "Civilian",
 		"uniques": [
             "Can instantly construct a [Farming Town] improvement <by consuming this unit>",
-			"Unbuildable", "Uncapturable"],
+			"Is part of Great Person group [Great Person]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 	{
@@ -286,7 +286,7 @@
 		"unitType": "Civilian",
 		"uniques": [
             "Can instantly construct a [Fishing Town] improvement <by consuming this unit>",
-			"Unbuildable", "Uncapturable"],
+			"Is part of Great Person group [Great Person]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 ]
