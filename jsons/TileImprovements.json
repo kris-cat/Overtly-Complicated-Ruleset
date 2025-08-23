@@ -100,51 +100,6 @@
         "uniques": ["Unbuildable", "Excluded from map editor"],
         "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
     },
-	// District Improvements
-	{
-		"name": "Farming Town",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"turnsToBuild": 10,
-		"uniques": [
-			"Only available <if [Farming Town] is constructed> <in this city>",
-			"District",
-			"Rural District",
-			"Cannot be built on [Land] tiles <in tiles adjacent to [District] tiles>",
-			"Ensures a minimum tile yield of [+3 Food]",
-			"Tile provides yield without assigned population",
-			"Cannot be built on [Mountain] tiles",
-			"Cannot be built on [Luxury resource] tiles",
-			"Cannot be built on [Bonus resource] tiles",
-			"Must be next to [Agricultural Resource]",
-            "Pillaging this improvement yields approximately [+25 Gold]",
-			"Removes removable features when built",
-			"Only available <if [Farming Town] is constructed> <in this city>",
-		],
-		"shortcutKey": "F"
-	},
-	{
-		"name": "Fishing Town",
-		"terrainsCanBeBuiltOn": ["Water"],
-		"turnsToBuild": 10,
-		"food": 3,
-		"uniques": [
-			"District",
-			"Rural District",
-			"Tile provides yield without assigned population",
-            "Pillaging this improvement yields approximately [+25 Gold]",
-			"Irremovable",
-			"Removes removable features when built",
-			"Cannot be built on [District] tiles",
-			"Cannot be built on [Luxury resource] tiles",
-			"Cannot be built on [Bonus resource] tiles",
-			"Must be next to [Fishing Resource]",
-			"Only available <with [1] to [6] neighboring [Land] tiles>",
-			"Unavailable <in tiles adjacent to [Great Improvement] tiles>",
-			"Only available <if [Fishing Town] is constructed> <in this city>",
-			"Will not be replaced by automated units"
-		],
-		"shortcutKey": "F"
-	},
 	// Basic Improvements
 	{
 		"name": "Farm",
