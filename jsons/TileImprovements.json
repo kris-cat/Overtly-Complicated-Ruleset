@@ -117,7 +117,7 @@
 	{
 		"name": "Lumber mill",
 		"terrainsCanBeBuiltOn": ["Forest"],
-		"production": 1,
+		"production": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Carpentry",
 		"uniques": [
