@@ -126,9 +126,9 @@
 		"food": 1,
 		"improvement": "Camp",
 		"uniques": [
-			"Generated on every [35] tiles <in [{Featureless} {Tundra}] tiles> <in tiles without [Hill]>",
-			"Generated on every [25] tiles <in [{Featureless} {Plains}] tiles> <in tiles without [Hill]>",
-			"Generated on every [30] tiles <in [{Featureless} {Grassland}] tiles> <in tiles without [Hill]>"
+			"Generated on every [40] tiles <in [{Featureless} {Tundra}] tiles> <in tiles without [Hill]>",
+			"Generated on every [30] tiles <in [{Featureless} {Plains}] tiles> <in tiles without [Hill]>",
+			"Generated on every [35] tiles <in [{Featureless} {Grassland}] tiles> <in tiles without [Hill]>"
 		]
 	},
 	{
