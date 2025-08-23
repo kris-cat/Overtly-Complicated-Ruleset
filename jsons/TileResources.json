@@ -151,9 +151,9 @@
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 		"uniques": [
-			"Generated on every [30] tiles <in [{Featureless} {Tundra}] tiles>",
-			"Generated on every [35] tiles <in [{Featureless} {Plains}] tiles>",
-			"Generated on every [40] tiles <in [{Featureless} {Grassland}] tiles>"
+			"Generated on every [40] tiles <in [{Featureless} {Tundra}] tiles>",
+			"Generated on every [45] tiles <in [{Featureless} {Plains}] tiles>",
+			"Generated on every [50] tiles <in [{Featureless} {Grassland}] tiles>"
 		]
 	},
 	{
@@ -164,8 +164,8 @@
 		"improvement": "Mine",
 		"improvementStats": {"science": 1},
 		"uniques": [
-			"Generated on every [60] tiles <in [{Hill} {Grassland}] tiles>",
-			"Generated on every [60] tiles <in [{Hill} {Plains}] tiles>",
+			"Generated on every [50] tiles <in [{Hill} {Grassland}] tiles>",
+			"Generated on every [50] tiles <in [{Hill} {Plains}] tiles>",
 		]
 	},
 	// Strategic Resources
