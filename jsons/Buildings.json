@@ -53,10 +53,25 @@
 		"requiredTech": "Fishing"
 		"uniques": [
 			"Must be next to [Water]",
+			"Only available <in cities without a [Trading Dock]>",
 			"[+1 Food] from [Fish] tiles [in this city]",
-			"[+1 Food] from [Crab] tiles [in this city]",
+			"[+1 Food] from [Whales] tiles [in this city]",
 		]
-	}
+	},
+	{
+		"name": "Trading Dock"
+		"cost": 40,
+		"gold": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25
+		"requiredTech": "Fishing"
+		"uniques": [
+			"Must be next to [Water]",
+			"Only available <in cities without a [Fishing Dock]>",
+			"[+1 Gold] from [Pearls] tiles [in this city]",
+			"[+1 Gold] from [Crab] tiles [in this city]",
+		]
+	},
 	{
 		"name": "Granary",
 		"food": 2,
@@ -143,9 +158,10 @@
 		"cost": 75,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
+		"requiredBuilding": ["Fishing Dock","Trading Dock"]
 		"uniques": [
+			"Connects trade routes over water",
 			"Must be next to [Water]",
-			"[+10]% Production when constructing [Water] units [in this city]",
 			"[+1 Gold] from [Fishing Boats] tiles [in this city]"
 		],
 		"requiredTech": "Celestial Navigation"
@@ -267,6 +283,30 @@
 		"requiredTech": "Mathematics"
 	},
 	//Classical Era - Second Column
+	{
+		"name": "Dockyard",
+		"maintenance": 2,
+		"requiredBuilding": "Lighthouse",
+		"uniques": [
+			"Must be next to [Water]",
+			"Only available <in cities without a [Entreport]>",
+			"[+15]% Production when constructing [Water] units [in this city]",
+			"[+1 Production] from [Water] tiles [in this city]"
+		],
+		"requiredTech": "Shipbuilding"
+	},
+	{
+		"name": "Entreport",
+		"maintenance": 2,
+		"requiredBuilding": "Lighthouse",
+		"uniques": [
+			"Must be next to [Water]",
+			"Only available <in cities without a [Entreport]>",
+			"[+1 Gold] from [Water resource] tiles [in this city]",
+			"[+1 Gold] from [Water] tiles [in this city]"
+		],
+		"requiredTech": "Shipbuilding"
+	},
 	{
 		"name": "Amphitheater",
 		"culture": 3,
