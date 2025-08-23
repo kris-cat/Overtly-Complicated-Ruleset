@@ -105,8 +105,8 @@
 		"improvement": "Farm",
 		"uniques": [
 			"Agricultural Resource",
-			"Generated on every [27] tiles <in [{Featureless} {Grassland}] tiles> <in tiles without [Hill]>",
-			"Generated on every [35] tiles <in [{Featureless} {Grassland}] tiles> <in tiles without [Hill]> <in [Hill] Regions>"
+			"Generated on every [27] tiles <in [{Featureless} {Grassland}] tiles> <in [Fresh Water] tiles>",
+			"Generated on every [35] tiles <in [{Featureless} {Grassland}] tiles> <in [Fresh Water] tiles> <in [Hill] Regions>"
 		]
 	},
 	{
