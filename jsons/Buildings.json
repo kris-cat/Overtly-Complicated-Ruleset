@@ -122,6 +122,7 @@
 		],
 		"uniques": [
 			"Free [Farming Town Founder] appears",
+			"[+1 Food] from [Farm] tiles [in this city] <in tiles adjacent to [Farming Town] tiles>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
