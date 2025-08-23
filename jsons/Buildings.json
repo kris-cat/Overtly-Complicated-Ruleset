@@ -158,7 +158,6 @@
 		"cost": 75,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"requiredBuilding": ["Fishing Dock","Trading Dock"],
 		"uniques": [
 			"Connects trade routes over water",
 			"Must be next to [Water]",
