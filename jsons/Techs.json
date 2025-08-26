@@ -309,7 +309,7 @@
 			},
 			{
 				"name": "Machinery",
-				"row": 6,
+				"row": 4,
 				"prerequisites": ["Guilds","Buttress"],
 			}
         ]
@@ -324,17 +324,17 @@
         [
 			{
 				"name": "Artisanship",
-				"row": 4,
+				"row": 3,
 				"prerequisites": ["Feudalism","Machinery"],
 			},
 			{
 				"name": "Metallurgy",
-				"row": 6,
+				"row": 4,
 				"prerequisites": ["Machinery"],
 			},
 			{
 				"name": "Siege Engines",
-				"row": 8,
+				"row": 6,
 				"prerequisites": ["Machinery","Saddle"],
 			}
         ]
