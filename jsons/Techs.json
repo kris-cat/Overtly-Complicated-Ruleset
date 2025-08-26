@@ -43,12 +43,12 @@
 			},
 			{
 				"name": "Carpentry",
-				"row": 7,
+				"row": 5,
 				"prerequisites": ["Agriculture"],
 			},
 			{
 				"name": "Mining",
-				"row": 9,
+				"row": 6,
 				"prerequisites": ["Agriculture"],
 			}
         ]
@@ -78,17 +78,17 @@
 			},
 			{
 				"name": "The Wheel",
-				"row": 6,
+				"row": 4,
 				"prerequisites": ["Animal Husbandry","Carpentry"],
 			},
 			{
 				"name": "Construction",
-				"row": 8,
+				"row": 5,
 				"prerequisites": ["Carpentry","Mining"],
 			},
 			{
 				"name": "Bronze Working",
-				"row": 10,
+				"row": 6,
 				"prerequisites": ["Mining"],
 			},
         ]
