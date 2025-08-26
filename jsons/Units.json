@@ -103,7 +103,7 @@
 		"movement": 2,
 		"strength": 6,
 		"cost": 75,
-		"requiredTech": "Construction",
+		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Engineering",
 		"upgradesTo": "Catapult",
 		"uniques": [
