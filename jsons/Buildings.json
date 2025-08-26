@@ -146,8 +146,7 @@
 		"replaces": "Water Mill",
 		"uniqueTo": "Kemet",
 		"maintenance": 1,
-		"food": 2,
-		"production": 2,
+		"science": 2,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Must be on [River]",
