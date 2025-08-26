@@ -131,7 +131,7 @@
 	},
 	{
 		"name": "Carpenters Quarter",
-		"maintenance": 2;
+		"maintenance": 2,
 		"production": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Carpentry",
@@ -144,10 +144,10 @@
 	},
 	{
 		"name": "Miners Quarter",
-		"maintenance": 2;
+		"maintenance": 2,
 		"production": 2,
 		"hurryCostModifier": 25,
-		"requiredTech": "Carpentry",
+		"requiredTech": "Mining",
 		"uniques": [
 			"Tier 1 Production Building",
 			"Only available <within [3] tiles of a [Mine]> <in this city>",
@@ -195,7 +195,7 @@
 	},
 	{
 		"name": "Builders Quarter",
-		"maintenance": 2;
+		"maintenance": 2,
 		"production": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Construction",
