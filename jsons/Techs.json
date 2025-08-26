@@ -38,7 +38,7 @@
 			},
 			{
 				"name": "Animal Husbandry",
-				"row": 5,
+				"row": 4,
 				"prerequisites": ["Agriculture"],
 			},
 			{
@@ -85,7 +85,6 @@
 				"name": "Construction",
 				"row": 8,
 				"prerequisites": ["Carpentry","Mining"],
-				"uniques": ["Roads connect tiles across rivers"],
 			},
 			{
 				"name": "Bronze Working",
@@ -114,18 +113,19 @@
 			},
 			{
 				"name": "Irrigation",
-				"row": 4,
-				"prerequisites": ["Calendar","Animal Husbandry"],
+				"row": 3,
+				"prerequisites": ["Calendar","The Wheel"],
 			},
 			{
 				"name": "Trade",
-				"row": 5,
-				"prerequisites": ["Animal Husbandry"],
+				"row": 4,
+				"prerequisites": ["The Wheel"],
 			},
 			{
 				"name": "Masonry",
 				"row": 7,
 				"prerequisites": ["The Wheel","Construction"],
+				"uniques": ["Roads connect tiles across rivers"],
 			}
         ]
 	},
