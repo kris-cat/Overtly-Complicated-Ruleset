@@ -96,8 +96,6 @@
 		"startBias": [
 			"[Desert]",
 			"[River]",
-			"Avoid [Jungle]",
-			"Avoid [Forest]"
 		],
 		"preferredVictoryType": "Domination",
 		"personality": "Average Guys",
