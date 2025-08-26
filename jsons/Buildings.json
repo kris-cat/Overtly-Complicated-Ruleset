@@ -118,6 +118,32 @@
 		"requiredTech": "Carpentry",
 		"uniques": ["Destroyed when the city is captured"]
 	},
+	{
+		"name": "Carpenters Quarter",
+		"maintenance": 2;
+		"production": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Carpentry",
+		"uniques": [
+			"Tier 1 Production Building",
+			"Only available <within [3] tiles of a [Lumbermill]> <in this city>",
+			"Only available <in cities without a [Miners Quarter]>",
+			"Only available <in cities without a [Builders Quarter]>"
+		]
+	},
+	{
+		"name": "Miners Quarter",
+		"maintenance": 2;
+		"production": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Carpentry",
+		"uniques": [
+			"Tier 1 Production Building",
+			"Only available <within [3] tiles of a [Mine]> <in this city>",
+			"Only available <in cities without a [Carpenters Quarter]>",
+			"Only available <in cities without a [Builders Quarter]>"
+		]
+	},
 	//Ancient Era - Second Column
 	{
 		"name": "Water Mill",
