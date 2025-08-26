@@ -100,7 +100,7 @@
 	},
 	{
 		"name": "Altar",
-		"faith": 3,
+		"faith": 2,
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Astrology",
@@ -297,7 +297,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Spirituality",
 		"uniques": [
-			"[+1 Food, +1 Faith] from every [Faith] <in this city>",
+			"[+1 Food] from every [Faith] <in this city>",
 			"Only available <in cities without a [Temple]>",
 			"Only available <when religion is enabled>",
 			"Only available <if [Tier 1 Faith Building] is constructed>",
