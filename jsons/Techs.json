@@ -174,12 +174,12 @@
 			},
 			{
 				"name": "Iron Working",
-				"row": 7,
+				"row": 5,
 				"prerequisites": ["Craftsmanship","Organised Warfare"],
 			},
 			{
 				"name": "Horseback Riding",
-				"row": 9,
+				"row": 6,
 				"prerequisites": ["Organised Warfare"],
 			}
         ]
@@ -209,12 +209,12 @@
 			},
 			{
 				"name": "Currency",
-				"row": 5,
+				"row": 4,
 				"prerequisites": ["Mathematics"],
 			},
 			{
 				"name": "Engineering",
-				"row": 6,
+				"row": 5,
 				"prerequisites": ["Mathematics","Iron Working"],
 			}
         ]
@@ -239,12 +239,12 @@
 			},
 			{
 				"name": "Urban Infrastracture",
-				"row": 5,
+				"row": 4,
 				"prerequisites": ["Currency","Engineering"],
 			},
 			{
 				"name": "Military Training",
-				"row": 8,
+				"row": 6,
 				"prerequisites": ["Engineering","Horseback Riding"],
 			}
         ]
@@ -274,17 +274,17 @@
 			},
 			{
 				"name": "Guilds",
-				"row": 5,
+				"row": 4,
 				"prerequisites": ["Urban Infrastracture"],
 			},
 			{
 				"name": "Buttress",
-				"row": 6,
+				"row": 5,
 				"prerequisites": ["Urban Infrastracture"],
 			},
 			{
 				"name": "Saddle",
-				"row": 8,
+				"row": 6,
 				"prerequisites": ["Military Training"],
 			}
         ]
