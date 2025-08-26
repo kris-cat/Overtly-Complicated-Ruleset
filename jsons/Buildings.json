@@ -89,10 +89,25 @@
 	{
 		"name": "Shrine",
 		"faith": 1,
+		"specialistSlots": {"Priest": 1},
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Astrology",
-		"uniques": []
+		"uniques": [
+			"Tier 1 Faith Building",
+			"Only available <in cities without a [Altar]>"
+		]
+	},
+	{
+		"name": "Altar",
+		"faith": 3,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Astrology",
+		"uniques": [
+			"Tier 1 Faith Building",
+			"Only available <in cities without a [Shrine]>"
+		]
 	},
 	{
 		"name": "Stable",
@@ -222,9 +237,22 @@
 	// Ancient Era - Fourth Column
 	{
 		"name": "Library",
+		"science": 3,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["[+1 Science] per [3] population [in this city]"],
+		"uniques": [
+			"Only available <in cities without a [School]>",
+		],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "School",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"Only available <in cities without a [Library]>",
+			"[+1 Science] per [3] population [in this city]"
+		],
 		"requiredTech": "Writing"
 	},
 	{
@@ -249,13 +277,30 @@
 	//Classical Era - First Column
 	{
 		"name": "Temple",
-		"faith": 2,
-		"requiredBuilding": "Shrine",
+		"faith": 1,
+		"specialistSlots": {"Priest": 2},
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Spirituality",
 		"uniques": [
+			"[+1 Faith] from every [Priest] <in this city>",
+			"Only available <in cities without a [Monastery]>",
 			"Only available <when religion is enabled>",
+			"Only available <if [Tier 1 Faith Building] is constructed>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Monastery",
+		"faith": 2,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Spirituality",
+		"uniques": [
+			"[+1 Food, +1 Faith] from every [Faith] <in this city>",
+			"Only available <in cities without a [Temple]>",
+			"Only available <when religion is enabled>",
+			"Only available <if [Tier 1 Faith Building] is constructed>",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -263,11 +308,16 @@
 		"name": "Burial Tomb",
 		"replaces": "Temple",
 		"uniqueTo": "Kemet",
-		"maintenance": 0,
-		"uniques": ["Doubles Gold given to enemy if city is captured"],
 		"faith": 2,
 		"happiness": 1,
-		"requiredBuilding": "Shrine",
+		"specialistSlots": {"Priest": 2},
+		"maintenance": 0,
+		"uniques": [
+			"[+1 Faith] from every [Priest] <in this city>",
+			"Only available <in cities without a [Monastery]>",
+			"Only available <if [Tier 1 Faith Building] is constructed>",
+			"Doubles Gold given to enemy if city is captured"
+		],
 		"hurryCostModifier": 25,
 		"requiredTech": "Mysticism"
 	},
