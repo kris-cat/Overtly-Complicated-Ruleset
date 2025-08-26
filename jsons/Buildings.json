@@ -89,7 +89,7 @@
 	},
 	{
 		"name": "Altar",
-		"faith": 2,
+		"faith": 1,
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Astrology",
