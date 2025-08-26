@@ -146,11 +146,11 @@
 		"replaces": "Water Mill",
 		"uniqueTo": "Kemet",
 		"maintenance": 1,
+		"food": 2,
 		"science": 2,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Must be on [River]",
-			"[+1 Food] from [River] tiles [in this city]"
 		],
 		"requiredTech": "The Wheel"
 	},
