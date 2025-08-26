@@ -117,8 +117,11 @@
 
 		"outerColor": [234, 225, 157],
 		"innerColor": [1, 79, 81],
-		"uniqueName": "Monument Builders",
-		"uniques": ["[+20]% Production when constructing [All] wonders [in all cities]"],
+		"uniqueName": "Gifts of the Nile",
+		"uniques": [
+			"[+20]% Production when constructing [All] wonders [in all cities] <during a Golden Age>",
+			"[+1 Production] from [River] tiles [in all cities]"
+		],
 		"cities": [
 			"Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten",
 			"Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
