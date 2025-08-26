@@ -163,8 +163,7 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": [
-			"Tier 1 Culture Building",
-			"[-10]% Culture cost of natural border growth [in this city]",
+			"Tier 1 Culture Building",,
 			"Only available <in cities without a [Memorial]>",
 			"Destroyed when the city is captured"
 		]
@@ -188,14 +187,13 @@
 		"name": "Obelisk",
 		"replaces": "Monument",
 		"uniqueTo": "Kemet",
-		"culture": 2,
+		"culture": 3,
 		"specialistSlots": {"Priest": 1},
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": [
 			"Tier 1 Culture Building",
-			"[-10]% Culture cost of natural border growth [in this city]",
 			"Only available <in cities without a [Memorial]>",
 			"Destroyed when the city is captured"
 		]
