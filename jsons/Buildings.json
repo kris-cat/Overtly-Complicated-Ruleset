@@ -163,10 +163,10 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": [
-			"Tier 1 Culture Building",,
+			"Tier 1 Culture Building",
 			"Only available <in cities without a [Memorial]>",
 			"Destroyed when the city is captured"
-		]
+		],
 		"requiredTech": "Construction"
 	},
 	{
@@ -180,7 +180,7 @@
 			"[10]% Great Person generation [in this city]",
 			"Only available <in cities without a [Monument]>",
 			"Destroyed when the city is captured"
-		]
+		].
 		"requiredTech": "Construction"
 	},
 	{
@@ -196,7 +196,7 @@
 			"Tier 1 Culture Building",
 			"Only available <in cities without a [Memorial]>",
 			"Destroyed when the city is captured"
-		]
+		],
 		"requiredTech": "Construction"
 	},
 	//Ancient Era - Third Column
