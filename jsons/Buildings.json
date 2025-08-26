@@ -88,7 +88,7 @@
 	},
 	{
 		"name": "Shrine",
-		"faith": 1,
+		"faith": 2,
 		"specialistSlots": {"Priest": 1},
 		"cost": 40,
 		"maintenance": 1,
@@ -106,6 +106,7 @@
 		"requiredTech": "Astrology",
 		"uniques": [
 			"Tier 1 Faith Building",
+			"[+1 Faith] per [3] population [in this city]",
 			"Only available <in cities without a [Shrine]>"
 		]
 	},
@@ -277,7 +278,7 @@
 	//Classical Era - First Column
 	{
 		"name": "Temple",
-		"faith": 1,
+		"faith": 2,
 		"specialistSlots": {"Priest": 2},
 		"maintenance": 2,
 		"hurryCostModifier": 25,
