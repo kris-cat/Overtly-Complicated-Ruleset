@@ -31,17 +31,6 @@
 			"Consumes [1] [Bureaucracy] <in cities with at least [72] [Population]>","Consumes [1] [Bureaucracy] <in cities with at least [80] [Population]>",
 		]
 		"replacementTextForUniques": "Dummy building used to calculate Bureaucracy costs from population. For more info about Bureaucracy, visit it's Civilipedia entry."
-	}
-	// Ancient Era - Starting Tech
-	{
-		"name": "Monument",
-		"culture": 2,
-		"cost": 40,
-		"hurryCostModifier": 40,
-		"maintenance": 1,
-		"uniques": [
-			"Destroyed when the city is captured"
-		]
 	},
 	// Ancient Era - First Column
 	{
@@ -165,6 +154,51 @@
 			"Must not be on [Plains]",
 			"[+1 Production] from [Stone] tiles [in this city]",
 		],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Monument",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": [
+			"Tier 1 Culture Building",
+			"[-10]% Culture cost of natural border growth [in this city]",
+			"Only available <in cities without a [Memorial]>",
+			"Destroyed when the city is captured"
+		]
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Memorial",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": [
+			"Tier 1 Culture Building",
+			"[10]% Great Person generation [in this city]",
+			"Only available <in cities without a [Monument]>",
+			"Destroyed when the city is captured"
+		]
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Obelisk",
+		"replaces": "Monument",
+		"uniqueTo": "Kemet",
+		"culture": 2,
+		"specialistSlots": {"Priest": 1},
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": [
+			"Tier 1 Culture Building",
+			"[-10]% Culture cost of natural border growth [in this city]",
+			"Only available <in cities without a [Memorial]>",
+			"Destroyed when the city is captured"
+		]
 		"requiredTech": "Construction"
 	},
 	//Ancient Era - Third Column
@@ -297,7 +331,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Spirituality",
 		"uniques": [
-			"[+1 Food] from every [Faith] <in this city>",
+			"[+1 Faith, +1 Food] from every [Faith] <in this city>",
 			"Only available <in cities without a [Temple]>",
 			"Only available <when religion is enabled>",
 			"Only available <if [Tier 1 Faith Building] is constructed>",
@@ -309,7 +343,7 @@
 		"replaces": "Temple",
 		"uniqueTo": "Kemet",
 		"faith": 2,
-		"happiness": 1,
+		"happiness": 2,
 		"specialistSlots": {"Priest": 2},
 		"maintenance": 0,
 		"uniques": [
