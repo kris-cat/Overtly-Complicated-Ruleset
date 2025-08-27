@@ -161,24 +161,19 @@
 		"maintenance": 2,
 		"requiredNearbyImprovedResources": ["Wheat","Rice","Maize"],
 		"food": 2,
-		"happiness": -1,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Provides [1] [Alcohol] <for every [Wheat]> <in this city>",
-			"Provides [1] [Alcohol] <for every [Rice]> <in this city>",
-			"Provides [1] [Alcohol] <for every [Maize]> <in this city>"
+			"Provides [1] [Beer]"
 		],
 		"requiredTech": "Calendar"
 	},
 	{
-		"name": "Distillery",
+		"name": "Wine Cellar",
 		"maintenance": 2,
 		"requiredNearbyImprovedResources": ["Wine"],
-		"culture": 2,
-		"happiness": -1,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Provides [1] [Wine]"
+			"[+1 Food, +1 Culture] from [Wine] tiles [in this city]"
 		],
 		"requiredTech": "Calendar"
 	},
