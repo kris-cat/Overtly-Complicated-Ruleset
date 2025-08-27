@@ -140,7 +140,7 @@
 		"attacked": "Very well, we will kick you back to the ancient era!",
 		"defeated": "This isn't how it is supposed to be!",
 		"outerColor": [0, 0, 0],
-		"innerColor": [70, 200, 175],
+		"innerColor": [35, 170, 150],
 		"cities": ["Auckland"]
 	},
 	{
@@ -152,7 +152,7 @@
 		"attacked": "Very well, we will kick you back to the ancient era!",
 		"defeated": "This isn't how it is supposed to be!",
 		"outerColor": [0, 0, 0],
-		"innerColor": [139, 69, 19],
+		"innerColor": [255, 216, 0],
 		"cities": ["Antwerp"]
 	},
 	{
@@ -164,7 +164,7 @@
 		"attacked": "Very well, we will kick you back to the ancient era!",
 		"defeated": "This isn't how it is supposed to be!",
 		"outerColor": [0, 0, 0],
-		"innerColor": [255, 255, 255],
+		"innerColor": [35, 175, 85],
 		"cities": ["Cahokia"]
 	},
 	{
@@ -175,7 +175,7 @@
 		"attacked": "Very well, we will kick you back to the ancient era!",
 		"defeated": "This isn't how it is supposed to be!",
 		"outerColor": [0, 0, 0],
-		"innerColor": [220, 20, 30],
+		"innerColor": [226, 22, 22],
 		"cities": ["Kabul"]
 	},
 	// Barbarians
