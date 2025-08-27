@@ -1,0 +1,153 @@
+[
+    /*
+    These are all templates
+    {
+        "name": "Agricultural",
+        "friendBonusUniques": [
+            "[+2 Food] [in capital]",
+            "[+1 Food] from all [Cistern] buildings"
+        ],
+        "allyBonusUniques": [
+            "[+2 Food] [in capital]",
+            "[+2 Food] from all [Cistern] buildings",
+            "[+1 Food] [in all cities]"
+        ],
+        "color": [35, 175, 85]
+    },
+    {
+        "name": "Maritime",
+        "friendBonusUniques": [
+            "[+1 Food, +1 Production] from all [Tier 1 Coastal Building] buildings",
+            "[+1 Food, +1 Production] from all [Lighthouse] buildings"
+        ],
+        "allyBonusUniques": [
+            "[+1 Food, +1 Production] from all [Tier 1 Coastal Building] buildings",
+            "[+1 Food, +1 Production] from all [Lighthouse] buildings",
+            "[+1 Food, +1 Production] from all [Tier 2 Coastal Building] buildings",
+        ],
+        "color": [35, 170, 150]
+    },
+    {
+        "name": "Artisanal",
+        "friendBonusUniques": [
+            "[+2 Gold, +1 Production] from all [Artisanal Building] buildings",
+        ],
+        "allyBonusUniques": [
+            "[+4 Gold, +2 Production] from all [Artisanal Building] buildings",
+        ],
+        "color": [220, 150, 100]
+    },
+    {
+        "name": "Industrial",
+        "friendBonusUniques": [
+            "[+2 Production] [in capital]",
+            "[+1 Production] from every [Production]"
+        ],
+        "allyBonusUniques": [
+            "[+3 Production] [in capital]",
+            "[+2 Production] from every [Production]"
+        ],
+        "color": [240, 125, 15]
+    },
+    {
+        "name": "Militaristic",
+        "friendBonusUniques": [
+            "[10]% Production when constructing [Military] units [in all cities]"
+        ],
+        "allyBonusUniques": [
+            "[20]% Production when constructing [Military] units [in all cities]"
+        ],
+        "color": [226, 22, 22]
+    },
+    {
+        "name": "Mercantile",
+        "friendBonusUniques": [
+            "[+8 Gold]",
+        ],
+        "allyBonusUniques": [
+            "[+16 Gold]",
+        ],
+        "color": [255, 216, 0]
+    },
+    {
+        "name": "Cultural",
+        "friendBonusUniques": [
+             "[+6 Culture]"
+        ],
+        "allyBonusUniques": [
+            "[+12 Culture]"
+        ],
+        "color": [139, 96, 255]
+    },
+    {
+        "name": "Scientific",
+        "friendBonusUniques": [
+            "[+4 Science]"
+        ],
+        "allyBonusUniques": [
+            "[+8 Science]"
+        ],
+        "color": [0, 50, 200]
+    },
+    {
+        "name": "Religious",
+        "friendBonusUniques":  [
+            "[+6 Faith]"
+        ],
+        "allyBonusUniques":  [
+            "[+12 Faith]"
+        ],
+        "color": [255, 255, 255]
+    }
+    */
+    {
+        "name": "Auckland",
+        "friendBonusUniques": [
+            "[+1 Food, +1 Production] from all [Tier 1 Coastal Building] buildings",
+            "[+1 Food, +1 Production] from all [Lighthouse] buildings"
+        ],
+        "allyBonusUniques": [
+            "[+1 Food, +1 Production] from all [Tier 1 Coastal Building] buildings",
+            "[+1 Food, +1 Production] from all [Lighthouse] buildings",
+            "[+1 Food, +1 Production] from all [Tier 2 Coastal Building] buildings",
+            "[+1 Production] from [Coast] tiles [in all coastal cities]"
+        ],
+        "color": [35, 170, 150]
+    },
+    {
+        "name": "Antwerp",
+        "friendBonusUniques": [
+            "[+8 Gold]",
+        ],
+        "allyBonusUniques": [
+            "[+16 Gold]",
+            "[+1 Gold, +1 Happiness] from each Trade Route"
+        ],
+        "color": [255, 216, 0]
+    },
+    {
+        "name": "Cahokia",
+        "friendBonusUniques": [
+            "[+2 Food] [in capital]",
+            "[+1 Food] from all [Cistern] buildings"
+        ],
+        "allyBonusUniques": [
+            "[+2 Food] [in capital]",
+            "[+2 Food] from all [Cistern] buildings",
+            "[+1 Food] [in all cities]",
+            "[+1 Food] from [Hill] tiles without [Farm] [in all cities]"
+        ],
+        "color": [35, 175, 85]
+    },
+    {
+        "name": "Kabul",
+        "friendBonusUniques": [
+            "[10]% Production when constructing [Military] units [in all cities]"
+        ],
+        "allyBonusUniques": [
+            "[20]% Production when constructing [Military] units [in all cities]",
+            "[50]% XP gained from combat"
+        ],
+        "color": [226, 22, 22]
+    },
+]
