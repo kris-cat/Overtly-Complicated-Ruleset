@@ -521,7 +521,7 @@
 					"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>"]
 	},
 	{
-		"name": "Alcohol",
+		"name": "Beer",
 		"resourceType": "Luxury",
 		"gold": 2,
 		"uniques": [
