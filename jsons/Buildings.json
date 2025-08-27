@@ -137,7 +137,7 @@
 		"requiredTech": "Carpentry",
 		"uniques": [
 			"Tier 1 Production Building",
-			"Only available <within [3] tiles of a [Lumbermill]> <in this city>",
+			"Only available <within [3] tiles of a [Lumber mill]>",
 			"Only available <in cities without a [Miners Quarter]>",
 			"Only available <in cities without a [Builders Quarter]>"
 		]
@@ -150,12 +150,38 @@
 		"requiredTech": "Mining",
 		"uniques": [
 			"Tier 1 Production Building",
-			"Only available <within [3] tiles of a [Mine]> <in this city>",
+			"Only available <within [3] tiles of a [Mine]>",
 			"Only available <in cities without a [Carpenters Quarter]>",
 			"Only available <in cities without a [Builders Quarter]>"
 		]
 	},
 	//Ancient Era - Second Column
+	{
+		"name": "Brewery",
+		"maintenance": 2,
+		"requiredNearbyImprovedResources": ["Wheat","Rice","Maize"],
+		"food": 2,
+		"happiness": -1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Provides [1] [Alcohol] <for every [Wheat]> <in this city>",
+			"Provides [1] [Alcohol] <for every [Rice]> <in this city>",
+			"Provides [1] [Alcohol] <for every [Maize]> <in this city>"
+		],
+		"requiredTech": "Calendar"
+	},
+	{
+		"name": "Distillery",
+		"maintenance": 2,
+		"requiredNearbyImprovedResources": ["Wine"],
+		"culture": 2,
+		"happiness": -1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Provides [1] [Wine]"
+		],
+		"requiredTech": "Calendar"
+	},
 	{
 		"name": "Water Mill",
 		"maintenance": 2,
