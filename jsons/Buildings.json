@@ -356,12 +356,12 @@
 	},
 	{
 		"name": "Monastery",
-		"faith": 2,
+		"faith": 3,
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Spirituality",
 		"uniques": [
-			"[+1 Faith, +1 Food] from every [Faith] <in this city>",
+			"[+1 Food] from every [Faith] <in this city>",
 			"Only available <in cities without a [Temple]>",
 			"Only available <when religion is enabled>",
 			"Only available <if [Tier 1 Faith Building] is constructed>",
