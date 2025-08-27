@@ -519,5 +519,13 @@
 					"Generated near City States with weight [15]",
 					"Doesn't generate naturally <in [{Forest} {Hill}] tiles>",
 					"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>"]
+	},
+	{
+		"name": "Alcohol",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": [
+			"Doesn't generate naturally"
+		]
 	}
 ]
