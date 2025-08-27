@@ -130,6 +130,54 @@
 			"Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"
 		]
     },
+	// City-states
+	{
+		"name": "Auckland",
+		"adjective": ["Aucklander"],
+		"cityStateType": "Auckland",
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [70, 200, 175],
+		"cities": ["Auckland"]
+	},
+	{
+		"name": "Antwerp",
+		"adjective": ["Antwerpian"],
+		"cityStateType": "Antwerp",
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [139, 69, 19],
+		"cities": ["Antwerp"]
+	},
+	{
+		"name": "Cahokia",
+		"adjective": ["Cahokian"],
+		"cityStateType": "Cahokia",
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255, 255, 255],
+		"cities": ["Cahokia"]
+	},
+	{
+		"name": "Kabul",
+		"adjective": ["Kabul"],
+		"cityStateType": "Kabul",
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [220, 20, 30],
+		"cities": ["Kabul"]
+	},
 	// Barbarians
 	{
 		"name": "Barbarians",
