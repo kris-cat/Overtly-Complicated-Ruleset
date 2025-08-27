@@ -21,6 +21,14 @@
 		]
 	},
 	{
+		"name": "Influence Points",
+		"resourceType": "Bonus",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Cannot be traded"
+		]
+	},
+	{
 		"name": "Districts",
 		"resourceType": "Strategic",
 		"uniques": [
