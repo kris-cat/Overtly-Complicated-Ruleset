@@ -106,7 +106,7 @@
 		"requiredTech": "Astrology",
 		"uniques": [
 			"Tier 1 Faith Building",
-			"[+1 Faith] per [3] population [in this city]",
+			"[+1 Faith] per [4] population [in this city]",
 			"Only available <in cities without a [Shrine]>"
 		]
 	},
