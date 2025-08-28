@@ -82,7 +82,7 @@
 	{
 		"name": "Fishing Dock"
 		"cost": 40,
-		"food": 1,
+		"food": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25
 		"requiredTech": "Fishing"
@@ -98,7 +98,7 @@
 		"name": "Trading Dock"
 		"cost": 40,
 		"gold": 1,
-		"maintenance": 1,
+		"maintenance": 0,
 		"hurryCostModifier": 25
 		"requiredTech": "Fishing"
 		"uniques": [
@@ -143,7 +143,7 @@
 		"requiredTech": "Astrology",
 		"uniques": [
 			"Tier 1 Faith Building",
-			"[+1 Faith] per [4] population [in this city]",
+			"[+1 Faith] per [5] population [in this city]",
 			"Only available <in cities without a [Shrine]>"
 		]
 	},
@@ -297,22 +297,23 @@
 		"requiredTech": "Trade"
 	},
 	{
-		"name": "Town Square",
-		"hurryCostModifier": 25,
+		"name": "Market",
 		"gold": 2,
-		"uniques": [
-			"[+1 Gold] per [3] population [in this city]",
-		],
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 15},
 		"requiredTech": "Trade"
 	},
 	{
 		"name": "Forum",
-		"replaces": "Town Square",
+		"replaces": "Market",
 		"uniqueTo": "Rome",
-		"hurryCostModifier": 25,
 		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 15},
 		"uniques": [
-			"[+2 Gold] per [3] population [in this city]",
+			"[+1 Culture] per [8] population [in this city]",
 		],
 		"requiredTech": "Trade"
 	},
@@ -512,7 +513,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 0,
 		"uniques": [
-			"[25]% Food is carried over after population increases [in this city]",
+			"[30]% Food is carried over after population increases [in this city]",
 		],
 		"requiredTech": "Engineering"
 	},
