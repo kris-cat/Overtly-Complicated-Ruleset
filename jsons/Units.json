@@ -110,6 +110,7 @@
 		"uniques": [
 			"Mercenary",
 			"Unbuildable",
+			"Can move immediately once bought",
 			"No movement cost to pillage",
 			"Can move after attacking",
 			"No defensive terrain bonus",
