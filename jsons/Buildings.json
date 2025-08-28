@@ -28,7 +28,7 @@
 		"cityStrength": 5,
 		"cost": 0,
 		"uniques": [
-			"[+2 Gold, +1 Food, +1 Production] from all [Punic Colony] buildings",
+			"[+2 Gold, +1 Food, +1 Production] from all [Punic Colony] buildings <in [all] cities>",
 			"Indicates the capital city",
 			"Provides [1] [Bureaucracy] <upon entering a new era>",
 			"Comment [All non-Bysra cities in your empire get Punic Colony, reducing their Gold, Food and Production yield by 10% but boosting capital output.]"
@@ -57,11 +57,12 @@
 		"hurryCostModifier": 0,
 		"maintenance": 0,
 		"uniques": [
-			"[-10]% [Gold]",
-			"[-10]% [Food]",
-			"[-10]% [Production]",
+			"[-10]% [Gold] [in this city]",
+			"[-10]% [Food] [in this city]",
+			"[-10]% [Production] [in this city]",
 			"Unsellable",
 			"Only available <for [Carthage] Civilizations>",
+			"Unavailable <if [Byrsa] is constructed>",
 			"Automatically built in all cities where it is buildable",
 			"Destroyed when the city is captured"
 		],
