@@ -449,7 +449,6 @@
 			"Tier 2 Coastal Building",
 			"Must be next to [Water]",
 			"Only available <if [Tier 1 Coastal Building] is constructed>",
-			"Only available <in cities without a [Shipyard]>",
 			"[+1 Gold] from [Water resource] tiles [in this city]",
 			"[+1 Gold] from [Water] tiles [in this city]"
 		],
