@@ -16,6 +16,24 @@
 			"Provides [1] [Bureaucracy] <upon entering a new era>"
 		]
 	},
+	{
+		"name": "Byrsa",
+		"replaces": "Palace",
+		"uniqueTo": "Carthage",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 5,
+		"cost": 0,
+		"uniques": [
+			"[+2 Gold, +1 Food, +1 Production] from all [Punic Colony] buildings",
+			"Indicates the capital city",
+			"Provides [1] [Bureaucracy] <upon entering a new era>",
+			"Comment [All non-Bysra cities in your empire get Punic Colony, reducing their Gold, Food and Production yield by 10% but boosting capital output.]"
+		]
+	},
 	// Dev Buildings
 	{
 		"name": "Calculator",
@@ -31,6 +49,22 @@
 			"Consumes [1] [Bureaucracy] <in cities with at least [72] [Population]>","Consumes [1] [Bureaucracy] <in cities with at least [80] [Population]>",
 		]
 		"replacementTextForUniques": "Dummy building used to calculate Bureaucracy costs from population. For more info about Bureaucracy, visit it's Civilipedia entry."
+	},
+	// Special Buildings
+	{
+		"name": "Punic Colony",
+		"cost": 0,
+		"hurryCostModifier": 0,
+		"maintenance": 0,
+		"uniques": [
+			"[-10]% [Gold]",
+			"[-10]% [Food]",
+			"[-10]% [Production]",
+			"Unsellable",
+			"Only available <for [Carthage] Civilizations>",
+			"Automatically built in all cities where it is buildable",
+			"Destroyed when the city is captured"
+		],
 	},
 	// Ancient Era - First Column
 	{
@@ -405,7 +439,7 @@
 			"Must be next to [Water]",
 			"Only available <if [Tier 1 Coastal Building] is constructed>",
 			"Only available <in cities without a [Entreport]>",
-			"[+15]% Production when constructing [Water] units [in this city]",
+			"[+10]% Production when constructing [Water] units [in this city]",
 			"[+1 Production] from [Water] tiles [in this city]"
 		],
 		"requiredTech": "Shipbuilding"
@@ -434,7 +468,7 @@
 			"Tier 2 Coastal Building",
 			"Must be next to [Water]",
 			"Only available <if [Tier 1 Coastal Building] is constructed>",
-			"[+15]% Production when constructing [Water] units [in this city]",
+			"[+10]% Production when constructing [Water] units [in this city]",
 			"[+1 Production] from [Water] tiles [in this city]"
 		],
 		"requiredTech": "Shipbuilding"
