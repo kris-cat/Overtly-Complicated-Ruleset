@@ -62,7 +62,7 @@
 			"[-10]% [Production] [in this city]",
 			"Unsellable",
 			"Only available <for [Carthage] Civilizations>",
-			"Unavailable <if [Byrsa] is constructed>",
+			"Unavailable <if [Byrsa] is constructed> <in this city>",
 			"Automatically built in all cities where it is buildable",
 			"Destroyed when the city is captured"
 		],
