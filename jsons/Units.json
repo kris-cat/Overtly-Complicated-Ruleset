@@ -55,7 +55,6 @@
 	{
 		"name": "Chariot Archer",
 		"unitType": "Mounted Ranged",
-		"upgradesTo": "Skirmisher",
 		"range": 1,
 		"movement": 4,
 		"strength": 6,
