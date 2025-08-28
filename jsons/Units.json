@@ -257,7 +257,7 @@
 		"unitType": "Mounted",
 		"uniqueTo": "Carthage",
 		"replaces": "Horseman",
-		"movement": 4,
+		"movement": 3,
 		"strength": 14,
 		"cost": 75,
 		"requiredTech": "Horseback Riding",
