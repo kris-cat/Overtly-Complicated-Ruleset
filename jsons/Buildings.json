@@ -425,6 +425,37 @@
 		"requiredTech": "Shipbuilding"
 	},
 	{
+		"name": "Cothon",
+		"replaces": "Shipyard",
+		"uniqueTo": "Carthage",
+		"maintenance": 2,
+		"requiredBuilding": "Lighthouse",
+		"uniques": [
+			"Tier 2 Coastal Building",
+			"Must be next to [Water]",
+			"Only available <if [Tier 1 Coastal Building] is constructed>",
+			"[+15]% Production when constructing [Water] units [in this city]",
+			"[+1 Production] from [Water] tiles [in this city]"
+		],
+		"requiredTech": "Shipbuilding"
+	},
+	{
+		"name": "Punic Dockyard",
+		"replaces": "Entreport",
+		"uniqueTo": "Carthage",
+		"maintenance": 2,
+		"requiredBuilding": "Lighthouse",
+		"uniques": [
+			"Tier 2 Coastal Building",
+			"Must be next to [Water]",
+			"Only available <if [Tier 1 Coastal Building] is constructed>",
+			"Only available <in cities without a [Shipyard]>",
+			"[+1 Gold] from [Water resource] tiles [in this city]",
+			"[+1 Gold] from [Water] tiles [in this city]"
+		],
+		"requiredTech": "Shipbuilding"
+	},
+	{
 		"name": "Amphitheater",
 		"culture": 3,
 		"specialistSlots": {"Artist": 1},
