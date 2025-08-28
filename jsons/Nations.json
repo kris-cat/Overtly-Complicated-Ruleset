@@ -28,8 +28,8 @@
 		"innerColor": [52, 125, 40],
 		"uniqueName": "The Mediterranean Thallassocracy",
 		"uniques": [
-			"[+100]% unhappiness from the number of cities",
-			"[+4] Happiness from each type of luxury resource",
+			"[+75]% unhappiness from the number of cities",
+			"[+3] Happiness from each type of luxury resource",
 			"[Gold] cost of purchasing [Land] units [-30]%",
 			"[-15]% Production when constructing [Land] units [in all cities]"
 		],
