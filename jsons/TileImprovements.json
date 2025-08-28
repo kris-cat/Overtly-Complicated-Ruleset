@@ -136,18 +136,6 @@
 		],
 		"shortcutKey": "M"
 	},
-	{
-		"name": "Trading post",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
-		"gold": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Trade",
-		"uniques": [
-			"[+1 Gold] <after discovering [Currency]>",
-			"Pillaging this improvement yields approximately [+20 Gold]"
-		],
-		"shortcutKey": "T"
-	},
 	// Resource-specific
 	{
 		"name": "Camp",
