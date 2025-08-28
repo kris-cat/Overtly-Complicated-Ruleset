@@ -96,6 +96,28 @@
 		],
 		"attackSound": "arrow"
 	},
+	{
+		"name": "Numidian Cavalry",
+		"unitType": "Mounted Ranged",
+		"uniqueTo": "Carthage",
+		"replaces": "Chariot Archer",
+		"range": 1,
+		"movement": 4,
+		"strength": 8,
+		"rangedStrength": 10,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"No movement cost to pillage",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "arrow"
+	},
 	// Ancient Era Siege Units
 	{
 		"name": "Battering Ram",
