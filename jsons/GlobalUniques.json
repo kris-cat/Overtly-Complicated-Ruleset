@@ -17,6 +17,5 @@
         "Provides [1] [Districts] <in [all] cities>",
         "Provides [1] [Districts] <in cities with at least [5] [Population]>",
         "Provides [1] [Districts] <in cities with at least [10] [Population]>",
-        "May buy [Mercenary] units with [Gold] [in all cities]"
     ]
 }
