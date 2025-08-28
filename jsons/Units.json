@@ -78,7 +78,6 @@
 		"unitType": "Mounted Ranged",
 		"uniqueTo": "Kemet",
 		"replaces": "Chariot Archer",
-		"upgradesTo": "Skirmisher",
 		"range": 1,
 		"movement": 5,
 		"strength": 6,
@@ -86,7 +85,6 @@
 		"cost": 56,
 		"requiredTech": "The Wheel",
 		"requiredResource": "Horses",
-		"obsoleteTech": "Horseback Riding",
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
@@ -106,9 +104,9 @@
 		"strength": 8,
 		"rangedStrength": 10,
 		"cost": 56,
-		"requiredTech": "The Wheel",
+		"requiredTech": "Animal Husbandry",
+		"requiredResource": "Horses",
 		"uniques": [
-			"Mercenary",
 			"Can move immediately once bought",
 			"No movement cost to pillage",
 			"Can move after attacking",
@@ -244,19 +242,19 @@
 		"attackSound": "horse"
 	},
 	{
-		"name": "Skirmisher",
-		"unitType": "Mounted Ranged",
-		"range": 1,
+		"name": "African Forest Elephant",
+		"unitType": "Mounted",
+		"uniqueTo": "Carthage",
+		"replaces": "Horseman",
 		"movement": 4,
-		"strength": 10,
-		"rangedStrength": 10,
+		"strength": 14,
 		"cost": 75,
 		"requiredTech": "Horseback Riding",
-		"requiredResource": "Horses",
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
-			"[-33]% Strength <vs cities> <when attacking>"
+			"[-33]% Strength <vs cities> <when attacking>",
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
