@@ -134,6 +134,7 @@
 			"Tier 1 Faith Building",
 			"Only available <in cities without a [Altar]>"
 		]
+		"requiredResource": "Specialty Capacity",
 	},
 	{
 		"name": "Altar",
@@ -146,6 +147,7 @@
 			"[+1 Faith] per [5] population [in this city]",
 			"Only available <in cities without a [Shrine]>"
 		]
+		"requiredResource": "Specialty Capacity",
 	},
 	{
 		"name": "Stable",
@@ -306,6 +308,7 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 15},
 		"requiredTech": "Trade"
+		"requiredResource": "Specialty Capacity",
 	},
 	{
 		"name": "Forum",
@@ -319,6 +322,7 @@
 			"[+1 Culture] per [8] population [in this city]",
 		],
 		"requiredTech": "Trade"
+		"requiredResource": "Specialty Capacity",
 	},
 	{
 		"name": "Arena",
@@ -340,12 +344,13 @@
 	// Ancient Era - Fourth Column
 	{
 		"name": "Library",
-		"science": 3,
+		"science": 4,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
 			"Only available <in cities without a [School]>",
 		],
+		"requiredResource": "Specialty Capacity",
 		"requiredTech": "Writing"
 	},
 	{
@@ -356,6 +361,7 @@
 			"Only available <in cities without a [Library]>",
 			"[+1 Science] per [3] population [in this city]"
 		],
+		"requiredResource": "Specialty Capacity",
 		"requiredTech": "Writing"
 	},
 	{
@@ -365,6 +371,7 @@
 		"hurryCostModifier": 25,
 		"gold": 2,
 		"uniques": ["[+1 Science] per [3] population [in this city]"],
+		"requiredResource": "Specialty Capacity",
 		"requiredTech": "Writing"
 	},
 	{
