@@ -50,6 +50,24 @@
 		]
 		"replacementTextForUniques": "Dummy building used to calculate Bureaucracy costs from population. For more info about Bureaucracy, visit it's Civilipedia entry."
 	},
+	{
+		"name": "Tier 1 Religious building",
+		"cost": 0,
+		"hurryCostModifier": 0,
+		"maintenance": 0,
+		"uniques": [
+			"Automatically built in all cities where it is buildable",
+		]
+	},
+	{
+		"name": "Tier 1 Religious building",
+		"cost": 0,
+		"hurryCostModifier": 0,
+		"maintenance": 0,
+		"uniques": [
+			"Automatically built in all cities where it is buildable",
+		]
+	},
 	// Special Buildings
 	{
 		"name": "Punic Colony",
@@ -75,7 +93,6 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": [
-			"Tier 1 Culture Building",
 			"Destroyed when the city is captured"
 		],
 	},
@@ -87,7 +104,6 @@
 		"hurryCostModifier": 25
 		"requiredTech": "Fishing"
 		"uniques": [
-			"Tier 1 Coastal Building",
 			"Must be next to [Water]",
 			"Only available <in cities without a [Trading Dock]>",
 			"[+1 Food] from [Fish] tiles [in this city]",
@@ -102,7 +118,6 @@
 		"hurryCostModifier": 25
 		"requiredTech": "Fishing"
 		"uniques": [
-			"Tier 1 Coastal Building",
 			"Must be next to [Water]",
 			"Only available <in cities without a [Fishing Dock]>",
 			"[+1 Gold] from [Pearls] tiles [in this city]",
@@ -175,7 +190,6 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Carpentry",
 		"uniques": [
-			"Tier 1 Production Building",
 			"Only available <within [3] tiles of a [Lumber mill]>",
 			"Only available <in cities without a [Miners Quarter]>",
 			"Only available <in cities without a [Builders Quarter]>"
@@ -188,7 +202,6 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Mining",
 		"uniques": [
-			"Tier 1 Production Building",
 			"Only available <within [3] tiles of a [Mine]>",
 			"Only available <in cities without a [Carpenters Quarter]>",
 			"Only available <in cities without a [Builders Quarter]>"
@@ -266,7 +279,6 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Construction",
 		"uniques": [
-			"Tier 1 Production Building",
 			"Only available <in cities without a [Miners Quarter]>",
 			"Only available <in cities without a [Carpenters Quarter]>"
 		]
@@ -396,7 +408,6 @@
 			"[+1 Faith] from every [Priest] <in this city>",
 			"Only available <in cities without a [Monastery]>",
 			"Only available <when religion is enabled>",
-			"Only available <if [Tier 1 Faith Building] is constructed>",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -410,7 +421,6 @@
 			"[+1 Food] from every [Faith] <in this city>",
 			"Only available <in cities without a [Temple]>",
 			"Only available <when religion is enabled>",
-			"Only available <if [Tier 1 Faith Building] is constructed>",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -447,9 +457,7 @@
 		"maintenance": 2,
 		"requiredBuilding": "Lighthouse",
 		"uniques": [
-			"Tier 2 Coastal Building",
 			"Must be next to [Water]",
-			"Only available <if [Tier 1 Coastal Building] is constructed>",
 			"Only available <in cities without a [Entreport]>",
 			"[+10]% Production when constructing [Water] units [in this city]",
 			"[+1 Production] from [Water] tiles [in this city]"
@@ -461,9 +469,7 @@
 		"maintenance": 2,
 		"requiredBuilding": "Lighthouse",
 		"uniques": [
-			"Tier 2 Coastal Building",
 			"Must be next to [Water]",
-			"Only available <if [Tier 1 Coastal Building] is constructed>",
 			"Only available <in cities without a [Shipyard]>",
 			"[+1 Gold] from [Water resource] tiles [in this city]",
 			"[+1 Gold] from [Water] tiles [in this city]"
@@ -477,7 +483,6 @@
 		"maintenance": 2,
 		"requiredBuilding": "Lighthouse",
 		"uniques": [
-			"Tier 2 Coastal Building",
 			"Must be next to [Water]",
 			"Only available <if [Tier 1 Coastal Building] is constructed>",
 			"[+10]% Production when constructing [Water] units [in this city]",
@@ -492,7 +497,6 @@
 		"maintenance": 2,
 		"requiredBuilding": "Lighthouse",
 		"uniques": [
-			"Tier 2 Coastal Building",
 			"Must be next to [Water]",
 			"Only available <if [Tier 1 Coastal Building] is constructed>",
 			"[+1 Gold] from [Water resource] tiles [in this city]",
