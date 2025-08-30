@@ -434,8 +434,7 @@
 		"maintenance": 0,
 		"uniques": [
 			"[+1 Faith] from every [Priest] <in this city>",
-			"Only available <in cities without a [Monastery]>",
-			"Only available <if [Tier 1 Faith Building] is constructed in all [in this city] cities>",
+			"Only available <in cities without a [Monastery]>",,
 			"Doubles Gold given to enemy if city is captured"
 		],
 		"hurryCostModifier": 25,
