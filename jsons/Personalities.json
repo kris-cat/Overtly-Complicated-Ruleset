@@ -18,5 +18,25 @@
         "priorities": {
            
         }
+    },
+    {
+        "name": "RomanAI",
+        "production": 6,
+        "food": 5,
+        "gold": 5,
+        "science": 4,
+        "culture": 7,
+        "happiness": 7,
+        "faith": 5,
+        "military": 8,
+        "aggressive": 8,
+        "declareWar": 7,
+        "commerce": 5,
+        "diplomacy": 5,
+        "loyal": 3,
+        "expansion": 7,
+        "priorities": {
+           
+        }
     }
 ]
