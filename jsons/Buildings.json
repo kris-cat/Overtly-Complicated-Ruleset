@@ -51,23 +51,44 @@
 		"replacementTextForUniques": "Dummy building used to calculate Bureaucracy costs from population. For more info about Bureaucracy, visit it's Civilipedia entry."
 	},
 	{
-		"name": "Tier 1 Religious building indicator",
-		"cost": 0,
+		"name": "Specialisation - Scientific",
+		"science": 1,
+		"cost": 10,
 		"hurryCostModifier": 0,
 		"maintenance": 0,
 		"uniques": [
-			"Automatically built in all cities where it is buildable",
-			"Unavailable <in cities without a [Tier 1 Faith Building]>"
 		]
+		"requiredResource": "Specialisation Slot",
 	},
 	{
-		"name": "Tier 1 Religious building",
-		"cost": 0,
+		"name": "Specialisation - Cultural",
+		"culture": 1,
+		"cost": 10,
 		"hurryCostModifier": 0,
 		"maintenance": 0,
 		"uniques": [
-			"Automatically built in all cities where it is buildable",
 		]
+		"requiredResource": "Specialisation Slot",
+	},
+	{
+		"name": "Specialisation - Commercial",
+		"gold": 1,
+		"cost": 10,
+		"hurryCostModifier": 0,
+		"maintenance": 0,
+		"uniques": [
+		]
+		"requiredResource": "Specialisation Slot",
+	},
+	{
+		"name": "Specialisation - Religious",
+		"faith": 1,
+		"cost": 10,
+		"hurryCostModifier": 0,
+		"maintenance": 0,
+		"uniques": [
+		]
+		"requiredResource": "Specialisation Slot",
 	},
 	// Special Buildings
 	{
@@ -87,16 +108,6 @@
 		],
 	},
 	// Ancient Era - First Column
-	{
-		"name": "Monument",
-		"culture": 2,
-		"cost": 40,
-		"hurryCostModifier": 40,
-		"maintenance": 1,
-		"uniques": [
-			"Destroyed when the city is captured"
-		],
-	},
 	{
 		"name": "Fishing Dock"
 		"cost": 40,
@@ -141,6 +152,7 @@
 	},
 	{
 		"name": "Shrine",
+		"requiredBuilding": "Specialisation - Religious",
 		"faith": 2,
 		"specialistSlots": {"Priest": 1},
 		"cost": 40,
@@ -150,10 +162,10 @@
 			"Tier 1 Faith Building",
 			"Only available <in cities without a [Altar]>"
 		]
-		"requiredResource": "Specialty Capacity",
 	},
 	{
 		"name": "Altar",
+		"requiredBuilding": "Specialisation - Religious",
 		"faith": 1,
 		"cost": 40,
 		"maintenance": 1,
@@ -163,10 +175,10 @@
 			"[+1 Faith] per [5] population [in this city]",
 			"Only available <in cities without a [Shrine]>"
 		]
-		"requiredResource": "Specialty Capacity",
 	},
 	{
 		"name": "Ancient Observatory",
+		"requiredBuilding": "Specialisation - Scientific",
 		"science": 2,
 		"cost": 40,
 		"maintenance": 1,
@@ -175,7 +187,6 @@
 			"Tier 1 Science Building",
 			"[+1 Science] from [Mountain] tiles [in this city]"
 		]
-		"requiredResource": "Specialty Capacity",
 	},
 	{
 		"name": "Stable",
@@ -272,6 +283,17 @@
 		"requiredTech": "The Wheel"
 	},
 	{
+		"name": "Monument",
+		"requiredBuilding": "Specialisation - Cultural",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": [
+			"[+1 Culture] per [5] population [in this city]",
+		]
+	},
+	{
 		"name": "Stone Works",
 		"happiness": 2,
 		"production": 1,
@@ -328,15 +350,16 @@
 	},
 	{
 		"name": "Market",
+		"requiredBuilding": "Specialisation - Commercial",
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 15},
 		"requiredTech": "Trade"
-		"requiredResource": "Specialty Capacity",
 	},
 	{
 		"name": "Forum",
+		"requiredBuilding": "Specialisation - Commercial",
 		"replaces": "Market",
 		"uniqueTo": "Rome",
 		"gold": 2,
@@ -347,7 +370,6 @@
 			"[+1 Culture] per [8] population [in this city]",
 		],
 		"requiredTech": "Trade"
-		"requiredResource": "Specialty Capacity",
 	},
 	{
 		"name": "Arena",
@@ -369,6 +391,7 @@
 	// Ancient Era - Fourth Column
 	{
 		"name": "Library",
+		"requiredBuilding": "Specialisation - Scientific",
 		"science": 4,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -379,6 +402,7 @@
 	},
 	{
 		"name": "School",
+		"requiredBuilding": "Specialisation - Scientific",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
@@ -389,6 +413,7 @@
 	},
 	{
 		"name": "Paper Maker",
+		"requiredBuilding": "Specialisation - Scientific",
 		"replaces": "Library",
 		"uniqueTo": "China",
 		"hurryCostModifier": 25,
@@ -409,6 +434,7 @@
 	//Classical Era - First Column
 	{
 		"name": "Temple",
+		"requiredBuilding": "Specialisation - Religious",
 		"faith": 2,
 		"specialistSlots": {"Priest": 2},
 		"maintenance": 2,
@@ -423,6 +449,7 @@
 	},
 	{
 		"name": "Monastery",
+		"requiredBuilding": "Specialisation - Religious",
 		"faith": 3,
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -436,6 +463,7 @@
 	},
 	{
 		"name": "Burial Tomb",
+		"requiredBuilding": "Specialisation - Religious",
 		"replaces": "Temple",
 		"uniqueTo": "Kemet",
 		"faith": 2,
@@ -466,6 +494,7 @@
 		"maintenance": 2,
 		"requiredBuilding": "Lighthouse",
 		"uniques": [
+			"Tier 2 Coastal Building",
 			"Must be next to [Water]",
 			"Only available <in cities without a [Entreport]>",
 			"[+10]% Production when constructing [Water] units [in this city]",
@@ -478,6 +507,7 @@
 		"maintenance": 2,
 		"requiredBuilding": "Lighthouse",
 		"uniques": [
+			"Tier 2 Coastal Building",
 			"Must be next to [Water]",
 			"Only available <in cities without a [Shipyard]>",
 			"[+1 Gold] from [Water resource] tiles [in this city]",
@@ -513,6 +543,7 @@
 	},
 	{
 		"name": "Amphitheater",
+		"requiredBuilding": "Specialisation - Cultural"
 		"culture": 3,
 		"specialistSlots": {"Artist": 1},
 		"requiredBuilding": "Monument",
