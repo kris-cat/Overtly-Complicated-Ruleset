@@ -57,6 +57,7 @@
 		"hurryCostModifier": 0,
 		"maintenance": 0,
 		"uniques": [
+			"Only available <after discovering [Astrology]>"
 		]
 		"requiredResource": "Specialisation Slot",
 	},
@@ -67,6 +68,7 @@
 		"hurryCostModifier": 0,
 		"maintenance": 0,
 		"uniques": [
+			"Only available <after discovering [Construction]>"
 		]
 		"requiredResource": "Specialisation Slot",
 	},
@@ -77,6 +79,7 @@
 		"hurryCostModifier": 0,
 		"maintenance": 0,
 		"uniques": [
+			"Only available <after discovering [Trade]>"
 		]
 		"requiredResource": "Specialisation Slot",
 	},
@@ -87,6 +90,7 @@
 		"hurryCostModifier": 0,
 		"maintenance": 0,
 		"uniques": [
+			"Only available <after discovering [Astrology]>"
 		]
 		"requiredResource": "Specialisation Slot",
 	},
