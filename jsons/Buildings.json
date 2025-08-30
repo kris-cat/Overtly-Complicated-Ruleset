@@ -483,7 +483,6 @@
 		"requiredBuilding": "Lighthouse",
 		"uniques": [
 			"Must be next to [Water]",
-			"Only available <if [Tier 1 Coastal Building] is constructed>",
 			"[+10]% Production when constructing [Water] units [in this city]",
 			"[+1 Production] from [Water] tiles [in this city]"
 		],
@@ -497,7 +496,6 @@
 		"requiredBuilding": "Lighthouse",
 		"uniques": [
 			"Must be next to [Water]",
-			"Only available <if [Tier 1 Coastal Building] is constructed>",
 			"[+1 Gold] from [Water resource] tiles [in this city]",
 			"[+1 Gold] from [Water] tiles [in this city]"
 		],
