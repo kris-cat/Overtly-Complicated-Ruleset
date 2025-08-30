@@ -19,6 +19,26 @@
            
         }
     },
+     {
+        "name": "CarthageAI",
+        "production": 5,
+        "food": 6,
+        "gold": 8,
+        "science": 3,
+        "culture": 6,
+        "happiness": 6,
+        "faith": 6,
+        "military": 5,
+        "aggressive": 5,
+        "declareWar": 5,
+        "commerce": 8,
+        "diplomacy": 8,
+        "loyal": 5,
+        "expansion": 8,
+        "priorities": {
+           
+        }
+    },
     {
         "name": "RomanAI",
         "production": 6,
