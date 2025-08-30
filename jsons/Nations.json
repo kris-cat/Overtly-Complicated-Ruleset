@@ -103,8 +103,8 @@
 		"hateHello": "What do you want?",
 		"tradeRequest": "I offer this, for your consideration.",
     
-		"outerColor": [70, 0, 118],
-		"innerColor": [190, 0, 20],
+		"outerColor": [190, 0, 20],
+		"innerColor": [240, 199, 0],
     
 		"uniqueName": "The Glory of Rome",
 		"uniques": [
