@@ -29,7 +29,7 @@
 		]
 	},
 	{
-		"name": "Specialty Capacity",
+		"name": "Specialisation Slot",
 		"resourceType": "Strategic",
 		"uniques": [
 			"Doesn't generate naturally",
