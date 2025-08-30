@@ -30,8 +30,7 @@
 		"uniques": [
 			"[+75]% unhappiness from the number of cities",
 			"[+3] Happiness from each type of luxury resource",
-			"[Gold] cost of purchasing [Land] units [-30]%",
-			"[-15]% Production when constructing [Land] units [in all cities]"
+			"Gifts of Gold to City-States generate [20]% more Influence"
 		],
 		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia",
 			"Karalis","Malaca","Leptis Magna","Hippo Diarrhytus","Motya","Sulci","Leptis Parva","Tharros","Soluntum","Lixus",
@@ -108,8 +107,8 @@
     
 		"uniqueName": "The Glory of Rome",
 		"uniques": [
-			"[25]% Production when constructing [Buildings] buildings [in capital]",
-			"[10]% Production towards any buildings that already exist in the Capital",
+			"Comment [Conquering a City-State provides their unique Ally bonus]",
+			"[+3 Production, +1 Culture] [in all cities connected to capital]",
 			"[Sword] units gain the [Roman Engineers] promotion",
 		],
 	  
