@@ -51,12 +51,13 @@
 		"replacementTextForUniques": "Dummy building used to calculate Bureaucracy costs from population. For more info about Bureaucracy, visit it's Civilipedia entry."
 	},
 	{
-		"name": "Tier 1 Religious building",
+		"name": "Tier 1 Religious building indicator",
 		"cost": 0,
 		"hurryCostModifier": 0,
 		"maintenance": 0,
 		"uniques": [
 			"Automatically built in all cities where it is buildable",
+			"Unavailable <in cities without a [Tier 1 Faith Building]>"
 		]
 	},
 	{
@@ -161,6 +162,18 @@
 			"Tier 1 Faith Building",
 			"[+1 Faith] per [5] population [in this city]",
 			"Only available <in cities without a [Shrine]>"
+		]
+		"requiredResource": "Specialty Capacity",
+	},
+	{
+		"name": "Ancient Observatory",
+		"science": 2,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Astrology",
+		"uniques": [
+			"Tier 1 Science Building",
+			"[+1 Science] from [Mountain] tiles [in this city]"
 		]
 		"requiredResource": "Specialty Capacity",
 	},
@@ -362,7 +375,6 @@
 		"uniques": [
 			"Only available <in cities without a [School]>",
 		],
-		"requiredResource": "Specialty Capacity",
 		"requiredTech": "Writing"
 	},
 	{
@@ -373,7 +385,6 @@
 			"Only available <in cities without a [Library]>",
 			"[+1 Science] per [3] population [in this city]"
 		],
-		"requiredResource": "Specialty Capacity",
 		"requiredTech": "Writing"
 	},
 	{
@@ -383,7 +394,6 @@
 		"hurryCostModifier": 25,
 		"gold": 2,
 		"uniques": ["[+1 Science] per [3] population [in this city]"],
-		"requiredResource": "Specialty Capacity",
 		"requiredTech": "Writing"
 	},
 	{
